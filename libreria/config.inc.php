@@ -2,7 +2,7 @@
 
 define ("VERSION","1.0.1"); // aggiornare per far caricare automaticamente i javascript modificati
 
-define ("DBHOST","127.0.0.1");
+define ("DBHOST","95.110.131.98");
 /*locale_get_default
 define ("DBUSER","prova");
 define ("DBPASS","prova");
