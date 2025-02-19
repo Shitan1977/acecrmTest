@@ -2,10 +2,10 @@
 
 class MySQL2
 {
-	private $db_host    = "127.0.0.1"; // nome del server
+	private $db_host    = "95.110.131.98"; // nome del server
 	private $db_user    = "Shitan";          //username del database
 	private $db_pass    = "!Demetrio1977Adele";          // password del database
-	private $db_dbname  = "admin_acecrm";          // nome del database
+	private $db_dbname  = "test_acecrm";          // nome del database
 	private $db_charset = "utf8";          // optional character set (i.e. utf8)
 	private $db_pcon    = false;      // use persistent connection?
 
