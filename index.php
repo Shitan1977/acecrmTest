@@ -1514,7 +1514,7 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Start list -->
                                                         <ul class="p-0 mt--15 uppercase bold fs-13 gray8 t-center fullwidth">
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">Gestione Negozio</span> 
+                                                                <span class="colored">Gestione Negozio</span>
                                                             </li>
                                                             <li class="bt-1 b-gray3 py-15">
                                                                 <span class="colored">7/7</span> SUPPORTO
