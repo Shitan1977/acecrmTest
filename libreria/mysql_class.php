@@ -105,7 +105,7 @@ class MySQL
 		} catch(Exception $e){
 			$this->scrivoErrore($e->getMessage());
 			return true;
-		}			
+		}
 	}
 
 	/**
@@ -341,7 +341,7 @@ class MySQL
 	 * @return boolean Returns TRUE on success or FALSE on error
 	 */
 	public function DeleteRows($tableName, $whereArray = null) {
-		
+
 		try{
 			$this->ResetError();
 			if (! $this->IsConnected()) {
@@ -359,7 +359,7 @@ class MySQL
 		} catch(Exception $e){
 			$this->scrivoErrore($e->getMessage());
 			return true;
-		}		
+		}
 	}
 
 	/**
