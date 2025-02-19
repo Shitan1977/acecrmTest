@@ -591,7 +591,7 @@ if (!empty($_POST['azienda'])) {
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
-                                                            Organizzazione di appuntamenti aziendali, pianificazione eventi, riunioni, avvisi. Puoi da oggi assegnare abbiettivi ai vari oeratori appuntamenti con fornitori o potenziali clienti. In tempo reale da remoto conoscerne l'esito.
+                                                            Organizzazione di appuntamenti aziendali, pianificazione eventi, riunioni, avvisi. Puoi da oggi assegnare obiettivi ai vari operatori, appuntamenti con fornitori o potenziali clienti in tempo reale e da remoto.
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-right b-white b-colored-hover-item slow left-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -621,7 +621,7 @@ if (!empty($_POST['azienda'])) {
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
-                                                            There are many variations of passages of Lorem Ipsum available, but the believable majority have suffered alteration in some form.
+                                                            Organizza e ordina tutti i tuoi fornitori con informazioni, storico degli ordini e catalogazione di fatture.
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-left b-white b-colored-hover-item slow right-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -652,14 +652,14 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Text Content -->
                                                     <div class="pt-40 pb-55 px-35 slow bg-white bg-colored-hover-item radius-md fullwidth relative">
                                                         <!-- Date -->
-                                                        <h6 class="medium gray7 white-hover-item uppercase slow">12 Jan 2022</h6>
+                                                        <h6 class="medium gray7 white-hover-item uppercase slow">Gerarchia aziendale</h6>
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
-                                                            THERE ARE MANY VARIATIONS OF PASSAGES
+                                                            Gestisci il personale
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
-                                                            There are many variations of passages of Lorem Ipsum available, but the believable majority have suffered alteration in some form.
+                                                            Gestisci le risorse, organizza i ruoli e le competenze, assegnando autorizzazioni e permessi, compartimentando la tua azienda
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-right b-white b-colored-hover-item slow left-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -685,11 +685,11 @@ if (!empty($_POST['azienda'])) {
                                                         <h6 class="medium gray7 white-hover-item uppercase slow">11 Jan 2022</h6>
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
-                                                            CONTRARY TO POPULAR BELIEF
+                                                            CLienti
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
-                                                            There are many variations of passages of Lorem Ipsum available, but the believable majority have suffered alteration in some form.
+                                                            Tieni sotto controllo gli ordini dei clienti, puoi in qualsiasi momento filtrare acquisti ordini in pochi secondi.
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-left b-white b-colored-hover-item slow right-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -715,14 +715,14 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Text Content -->
                                                     <div class="pt-40 pb-55 px-35 slow bg-white bg-colored-hover-item radius-md fullwidth relative">
                                                         <!-- Date -->
-                                                        <h6 class="medium gray7 white-hover-item uppercase slow">24 dec 2021</h6>
+                                                        <h6 class="medium gray7 white-hover-item uppercase slow">Gestione magazzino </h6>
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
-                                                            LOREM IPSUM DOLOR SIT
+                                                            Magazzino
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
-                                                            There are many variations of passages of Lorem Ipsum available, but the believable majority have suffered alteration in some form.
+                                                            Gestisci il tuo magazzino in maniera facile ed efficiente, tieni traccia degli ordini, delle giaceze e delle fatture.
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-right b-white b-colored-hover-item slow left-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -752,11 +752,11 @@ if (!empty($_POST['azienda'])) {
                                                         <h6 class="medium gray7 white-hover-item uppercase slow">14 dec 2021</h6>
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
-                                                            THE STANDARD CHUNK OF LOREM IPSUM
+                                                            Sincronizza
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
-                                                            There are many variations of passages of Lorem Ipsum available, but the believable majority have suffered alteration in some form.
+                                                            Tieni i tuoi dati sempre sincronizzati su tutti i tuoi dispositivi.
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-left b-white b-colored-hover-item slow right-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -1961,13 +1961,13 @@ if (!empty($_POST['azienda'])) {
                                                 <!-- Column for title -->
                                                 <div class="col-12 d-flex flex-column align-items-center t-center">
                                                     <!-- Header -->
-                                                    <h1 class="fs-60 uppercase white font-secondary">
+                                                    <h1 class="fs-60 uppercase font-secondary" style="color:#0066A6">
                                                         KEEP IN TOUCH
                                                     </h1>
                                                     <!-- Header Strip -->
                                                     <div class="width-70 height-1 my-20 bg-gray4"></div>
                                                     <!-- Header Description -->
-                                                    <p class="mxw-800 fs-16 lh-30 white">
+                                                    <p class="mxw-800 fs-16 lh-30 text-secondary">
                                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical Latin literature from 45 BC, it a old.
                                                     </p>
                                                 </div>
@@ -1986,26 +1986,26 @@ if (!empty($_POST['azienda'])) {
                                                                     <div class="col-lg-6 col-12">
                                                                         <div class="row">
                                                                             <div class="col-12 relative">
-                                                                                <input type="text" name="name" id="name" placeholder="Your Name*" required class="py-25 px-25 b-gray9 fs-18 bg-transparent white gray-placeholder mt-30">
+                                                                                <input type="text" name="name" id="name" placeholder="Your Name*" required class="py-25 px-25 b-gray9 fs-18 bg-transparent gray8 gray-placeholder mt-30">
                                                                                     <div class="invalid-tooltip top-3 mt-0 bg-transparent p-0 text-danger fs-16 font-main">Please enter your name.</div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="row">
                                                                             <div class="col-12 relative">
-                                                                                <input type="email" name="email" id="email" placeholder="E-Mail*" required class="py-25 px-25 b-gray9 fs-18 bg-transparent white gray-placeholder mt-30">
+                                                                                <input type="email" name="email" id="email" placeholder="E-Mail*" required class="py-25 px-25 b-gray9 fs-18 bg-transparent gray8 gray-placeholder mt-30">
                                                                                     <div class="invalid-tooltip top-3 mt-0 bg-transparent p-0 text-danger fs-16 font-main">Please enter a valid e-mail.</div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="row">
                                                                             <div class="col-12 relative">
-                                                                                <input type="text" name="subject" id="subject" placeholder="Subject" class="py-25 px-25 b-gray9 fs-18 bg-transparent white gray-placeholder mt-30">
+                                                                                <input type="text" name="subject" id="subject" placeholder="Subject" class= "py-25 px-25 b-gray9 fs-18 bg-transparent gray8 gray-placeholder mt-30">
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <!-- End col for input -->
                                                                     <!-- Col for input -->
                                                                     <div class="col-lg-6 col-12 relative pt-30">
-                                                                        <textarea name="message" id="message" placeholder="Tell us about your project.*" required class="py-25 px-25 b-gray9 fs-18 bg-transparent white gray-placeholder mnh-150 fullheight"></textarea>
+                                                                        <textarea name="message" id="message" placeholder="Tell us about your project.*" required class= "py-25 px-25 b-gray9 fs-18 bg-transparent gray8 gray-placeholder mnh-150 fullheight"></textarea>
                                                                         <div class="invalid-tooltip top-3 mt-0 bg-transparent p-0 text-danger fs-16 font-main">Please type your message.</div>
                                                                     </div>
                                                                     <!-- End col for input -->
