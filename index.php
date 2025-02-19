@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 include_once 'class/config.inc';
 $login = new login_class();
 if (!empty($_POST['azienda'])) {
@@ -162,7 +159,7 @@ if (!empty($_POST['azienda'])) {
                                                 <div class="col-12 d-flex flex-column align-items-center mb-50">
                                                     <!-- Title -->
                                                     <h1 class="gray8 fs-50 fs-40-sm lh-50 lh-45-sm medium font-secondary uppercase">
-                                                       intuitivo, Versatile &amp; con un design <span class="colored">professionale</span>.
+                                                        intuitivo, Versatile &amp; con un design <span class="colored">professionale</span>.
                                                     </h1>
                                                     <!-- Paragraph -->
                                                     <p class="mxw-800 d-inline-flex mt-15">
@@ -182,7 +179,7 @@ if (!empty($_POST['azienda'])) {
                                                     </h4>
                                                     <!-- Paragraph -->
                                                     <p class="mxw-800 d-inline-flex mt-10 gray7">
-                                                       Layout dinamico device free 
+                                                        Layout dinamico device free 
                                                     </p>
                                                 </div>
                                                 <!-- End column for box -->
@@ -214,7 +211,7 @@ if (!empty($_POST['azienda'])) {
                                                     </h4>
                                                     <!-- Paragraph -->
                                                     <p class="mxw-800 d-inline-flex mt-10 gray7">
-                                                    Free solution for your web business
+                                                        Free solution for your web business
                                                     </p>
                                                 </div>
                                                 <!-- End column for box -->
@@ -256,7 +253,7 @@ if (!empty($_POST['azienda'])) {
                                                     </h1>
                                                     <!-- Paragraph -->
                                                     <p class="mxw-800 d-inline-flex mt-15 gray3">
-                                                       Fai Evolvere il tuo business rendi veloci e smart le tue azioni. Il tuo lavoro deve diventare la soluzione, non il problema.
+                                                        Fai Evolvere il tuo business rendi veloci e smart le tue azioni. Il tuo lavoro deve diventare la soluzione, non il problema.
                                                 </div>
                                                 <!-- End column 12 for the title -->
                                                 <!-- Column for box -->
@@ -289,7 +286,7 @@ if (!empty($_POST['azienda'])) {
                                                     </div>
                                                     <!-- Title -->
                                                     <h4 class="fs-17 mt-30 gray2">
-                                                       Compatibile con tutti gli e-commerce
+                                                        Compatibile con tutti gli e-commerce
                                                     </h4>
                                                 </div>
                                                 <!-- End column for box -->
@@ -323,7 +320,7 @@ if (!empty($_POST['azienda'])) {
                                                     </div>
                                                     <!-- Title -->
                                                     <h4 class="fs-17 mt-30 gray2">
-                                                    Gestione Magazzino sincronizzazione ordini 
+                                                        Gestione Magazzino sincronizzazione ordini 
                                                     </h4>
                                                 </div>
                                                 <!-- End column for box -->
@@ -395,7 +392,7 @@ if (!empty($_POST['azienda'])) {
                                                     </h4>
                                                     <!-- Desc -->
                                                     <p class="gray7 mt-15">
-                                                Adattabile e fruibile da tutti i device 100% responsive design
+                                                        Adattabile e fruibile da tutti i device 100% responsive design
                                                     </p>
                                                 </div>
                                                 <!-- End box col -->
@@ -405,11 +402,11 @@ if (!empty($_POST['azienda'])) {
                                                     <i class="bi-airplane-engines fs-40 gray8 colored-hover-item slow"></i>
                                                     <!-- Title -->
                                                     <h4 class="fs-17 mt-20 gray8 medium uppercase">
-                                                       Velocita´di caricamento 
+                                                        Velocita´di caricamento 
                                                     </h4>
                                                     <!-- Desc -->
                                                     <p class="gray7 mt-15">
-                                                       Essenziale, versatile il suo codice pulito permette un alta velocita´di caricamento.
+                                                        Essenziale, versatile il suo codice pulito permette un alta velocita´di caricamento.
                                                     </p>
                                                 </div>
                                                 <!-- End box col -->
@@ -437,7 +434,7 @@ if (!empty($_POST['azienda'])) {
                                                     </h4>
                                                     <!-- Desc -->
                                                     <p class="gray7 mt-15">
-                                                       linguaggio essenziale e chiaro sinteticita´e concisione di stile.
+                                                        linguaggio essenziale e chiaro sinteticita´e concisione di stile.
                                                     </p>
                                                 </div>
                                                 <!-- End box col -->
@@ -495,7 +492,7 @@ if (!empty($_POST['azienda'])) {
                                                                 <div class="d-flex fullwidth fullheight flex-column align-items-center justify-content-center t-center">
                                                                     <!-- Quote -->
                                                                     <q class="white uppercase bold fs-30 fs-22-sm lh-40 lh-30-sm">
-                                                                       Agli ingenieri piace risolvere i problemi. Se non ci sono<span class="colored"> problemi</span> disponibili, essi <span class="colored">Ne creeranno</span> problemdi propri.
+                                                                        Agli ingenieri piace risolvere i problemi. Se non ci sono<span class="colored"> problemi</span> disponibili, essi <span class="colored">Ne creeranno</span> problemdi propri.
                                                                     </q>
                                                                     <!-- Owner -->
                                                                     <abbr class="gray5 uppercase mt-30">Scott Adams</abbr>
@@ -558,11 +555,11 @@ if (!empty($_POST['azienda'])) {
                                             <div class="d-flex flex-column align-items-center t-center mb-10 mb-20-sm">
                                                 <!-- Title -->
                                                 <h1 class="gray8 fs-50 fs-40-sm lh-50 lh-45-sm medium font-secondary uppercase">
-                                                   Cosa puoi fare con ACECRM? <br class="visible-lg"><span class="colored">Tutto ciò che ti serve.</span>
+                                                    Cosa puoi fare con ACECRM? <br class="visible-lg"><span class="colored">Tutto ciò che ti serve.</span>
                                                 </h1>
                                                 <!-- Paragraph -->
                                                 <p class="mxw-800 d-inline-flex mt-15">
-                                                   Personalizza il tuo busisness e pianfica il tuo tempo, Grazie allo sviluppo modulare puoi aggiungere funzionie ampliare le potenzialità del tuo gestionale. 
+                                                    Personalizza il tuo busisness e pianfica il tuo tempo, Grazie allo sviluppo modulare puoi aggiungere funzionie ampliare le potenzialità del tuo gestionale. 
                                                 </p>
                                             </div>
                                             <!-- End column 12 for the title -->
@@ -614,14 +611,15 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Text Content -->
                                                     <div class="pt-40 pb-55 px-35 slow bg-white bg-colored-hover-item radius-md fullwidth relative">
                                                         <!-- Date -->
-                                                        <h6 class="medium gray7 white-hover-item uppercase slow">18 Jan 2022</h6>
+                                                        <h6 class="medium gray7 white-hover-item uppercase slow">Gestione Fornitori</h6>
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
-                                                            CONTRARY TO POPULAR BELIEF
+                                                            Gestisci e Organizza
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
                                                             Organizza e ordina tutti i tuoi fornitori con informazioni, storico degli ordini e catalogazione di fatture.
+
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-left b-white b-colored-hover-item slow right-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -652,6 +650,7 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Text Content -->
                                                     <div class="pt-40 pb-55 px-35 slow bg-white bg-colored-hover-item radius-md fullwidth relative">
                                                         <!-- Date -->
+
                                                         <h6 class="medium gray7 white-hover-item uppercase slow">Gerarchia aziendale</h6>
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
@@ -660,7 +659,7 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
                                                             Gestisci le risorse, organizza i ruoli e le competenze, assegnando autorizzazioni e permessi, compartimentando la tua azienda
-                                                        </p>
+                                                      
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-right b-white b-colored-hover-item slow left-percent-100 top-percent-50 mt--15 absolute"></div>
                                                         <!-- Image and video content -->
@@ -682,7 +681,7 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Text Content -->
                                                     <div class="pt-40 pb-55 px-35 slow bg-white bg-colored-hover-item radius-md fullwidth relative">
                                                         <!-- Date -->
-                                                        <h6 class="medium gray7 white-hover-item uppercase slow">11 Jan 2022</h6>
+                                                        <h6 class="medium gray7 white-hover-item uppercase slow">Gestione Clienti</h6>
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
                                                             CLienti
@@ -690,6 +689,7 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
                                                             Tieni sotto controllo gli ordini dei clienti, puoi in qualsiasi momento filtrare acquisti ordini in pochi secondi.
+                                                
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-left b-white b-colored-hover-item slow right-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -707,7 +707,7 @@ if (!empty($_POST['azienda'])) {
                                                 <!-- End post -->
                                                 <!-- Today button -->
                                                 <div class="col-12 mt-70 mt-60-sm t-center relative zi-5">
-                                                    <div class="lh-normal py-15 px-30 bg-white dark2 fs-11 bold d-inline-flex radius">2021</div>
+                                                    <div class="lh-normal py-15 px-30 bg-white dark2 fs-11 bold d-inline-flex radius"></div>
                                                 </div>
                                                 <!-- Today button -->
                                                 <!-- Post - ON LEFT -->
@@ -716,6 +716,8 @@ if (!empty($_POST['azienda'])) {
                                                     <div class="pt-40 pb-55 px-35 slow bg-white bg-colored-hover-item radius-md fullwidth relative">
                                                         <!-- Date -->
                                                         <h6 class="medium gray7 white-hover-item uppercase slow">Gestione magazzino </h6>
+
+                                                       
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
                                                             Magazzino
@@ -749,10 +751,11 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Text Content -->
                                                     <div class="pt-40 pb-55 px-35 slow bg-white bg-colored-hover-item radius-md fullwidth relative">
                                                         <!-- Date -->
-                                                        <h6 class="medium gray7 white-hover-item uppercase slow">14 dec 2021</h6>
+                                                        <h6 class="medium gray7 white-hover-item uppercase slow">Sincronizzazione</h6>
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
                                                             Sincronizza
+
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
@@ -799,7 +802,7 @@ if (!empty($_POST['azienda'])) {
                                                 </h1>
                                                 <!-- Paragraph -->
                                                 <p class="mxw-800 d-inline-flex mt-15">
-                                                   Grazie al suo sistema modulare e alla personalizzazione il nostro software e adattabile a tutte le attivita´. Tu dicci cosa ti serve e noi lo creeremo per te.
+                                                    Grazie al suo sistema modulare e alla personalizzazione il nostro software e adattabile a tutte le attivita´. Tu dicci cosa ti serve e noi lo creeremo per te.
                                                 </p>
                                             </div>
                                             <!-- End column 12 for the title -->
@@ -996,7 +999,7 @@ if (!empty($_POST['azienda'])) {
                                                         <div class="row row-eq-height justify-content-between mx-0">
                                                             <div class="col-9 px-20 py-20 lh-normal">
                                                                 <h3 class="fs-15 mt-3 dark4 lh-normal" title="How long can rocks withstand waves?">
-                                                                e-commerce, shop
+                                                                    e-commerce, shop
                                                                 </h3>
                                                                 <h5 class="fs-13 gray6 mt-3 capitalize">Negozio</h5>
                                                             </div>
@@ -1100,7 +1103,7 @@ if (!empty($_POST['azienda'])) {
                                                         <div class="row row-eq-height justify-content-between mx-0">
                                                             <div class="col-9 px-20 py-20 lh-normal">
                                                                 <h3 class="fs-15 mt-3 dark4 lh-normal" title="How long can rocks withstand waves?">
-                                                                   Delivery
+                                                                    Delivery
                                                                 </h3>
                                                                 <h5 class="fs-13 gray6 mt-3 capitalize">Spedizioni</h5>
                                                             </div>
@@ -1196,7 +1199,7 @@ if (!empty($_POST['azienda'])) {
                                                         Perche´ <span class="font-tertiary colored capitalize fs-40">Lo Amerai?</span>
                                                     </h1>
                                                     <p class="mt-10">
-                                                    Ci sono tante ragioni che ti porteranno ad amare <Span class="font-tertiary colored capitalize fs-40">Ace Crm</span>. La prima ? la semplicita´e la sua estrema versatilita´.                                         </p>
+                                                        Ci sono tante ragioni che ti porteranno ad amare <Span class="font-tertiary colored capitalize fs-40">Ace Crm</span>. La prima ? la semplicita´e la sua estrema versatilita´.                                         </p>
                                                     <!-- Accordion -->
                                                     <div id="accordionBar" class="mt-15">
                                                         <!-- Accordion bar -->
@@ -1337,274 +1340,7 @@ if (!empty($_POST['azienda'])) {
                                         <!-- End container for all -->
                                     </section>
                                     <!-- End why We section -->
-                                    <!-- Start team section -->
-                                    <section id="team" class="py-100">
-                                        <!-- Container for title -->
-                                        <div class="container">
-                                            <!-- Column 12 for the title -->
-                                            <div class="d-flex flex-column align-items-center t-center">
-                                                <!-- Title -->
-                                                <h1 class="gray8 fs-50 fs-40-sm lh-50 lh-45-sm medium font-secondary uppercase">
-                                                    Oxygen's Creative Team
-                                                </h1>
-                                                <!-- Paragraph -->
-                                                <p class="mxw-800 d-inline-flex mt-15">
-                                                    On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and by the charms of pleasure of the moment, so blinded by desire
-                                                </p>
-                                            </div>
-                                            <!-- End column 12 for the title -->
-                                        </div>
-                                        <!-- End container for title -->
-                                        <!-- Container for the team members -->
-                                        <div class="container mt-30">
-                                            <!-- Row for all members -->
-                                            <div class="row">
-                                                <!-- Member column -->
-                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
-                                                    <!-- Container for member details -->
-                                                    <div class="has-overlay animated-container block-img">
-                                                        <!-- Employee image -->
-                                                        <img src="vetrina/images/team/team-loader.svg" data-src="vetrina/images/team/1.jpg" alt="example employee photo">
-                                                            <!-- Employee details -->
-                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
-                                                                <!-- Name -->
-                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
-                                                                    Julia Amanda
-                                                                </h2>
-                                                                <!-- Position -->
-                                                                <p class="uppercase colored fs-13 medium mt-5 animated-hover fast" data-animation="fadeInDown" data-animation-delay="50">
-                                                                    Photographer
-                                                                </p>
-                                                                <!-- Description -->
-                                                                <p class="fs-15 white t-center px-15 animated-hover fast" data-animation="fadeInDown" data-animation-delay="100">
-                                                                    It is a long established fact that a reader will be distracted by the readable content.
-                                                                </p>
-                                                                <!-- Social networks -->
-                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
-                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
-                                                                        <i class="bi-twitter"></i>
-                                                                    </a>
-                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
-                                                                        <i class="bi-facebook"></i>
-                                                                    </a>
-                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
-                                                                        <i class="bi-instagram"></i>
-                                                                    </a>
-                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
-                                                                        <i class="bi-linkedin"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                    </div>
-                                                    <!-- End container for member details -->
-                                                </div>
-                                                <!-- End member column -->
-                                                <!-- Member column -->
-                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
-                                                    <!-- Container for member details -->
-                                                    <div class="has-overlay animated-container block-img">
-                                                        <!-- Employee image -->
-                                                        <img src="vetrina/images/team/team-loader.svg" data-src="vetrina/images/team/2.jpg" alt="example employee photo">
-                                                            <!-- Employee details -->
-                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
-                                                                <!-- Name -->
-                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
-                                                                    ADRIANA DOEN
-                                                                </h2>
-                                                                <!-- Position -->
-                                                                <p class="uppercase colored fs-13 medium mt-5 animated-hover fast" data-animation="fadeInDown" data-animation-delay="50">
-                                                                    HUMAN RESOURCES
-                                                                </p>
-                                                                <!-- Description -->
-                                                                <p class="fs-15 white t-center px-15 animated-hover fast" data-animation="fadeInDown" data-animation-delay="100">
-                                                                    It is a long established fact that a reader will be distracted by the readable content.
-                                                                </p>
-                                                                <!-- Social networks -->
-                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
-                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
-                                                                        <i class="bi-twitter"></i>
-                                                                    </a>
-                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
-                                                                        <i class="bi-facebook"></i>
-                                                                    </a>
-                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
-                                                                        <i class="bi-instagram"></i>
-                                                                    </a>
-                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
-                                                                        <i class="bi-linkedin"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                    </div>
-                                                    <!-- End container for member details -->
-                                                </div>
-                                                <!-- End member column -->
-                                                <!-- Member column -->
-                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
-                                                    <!-- Container for member details -->
-                                                    <div class="has-overlay animated-container block-img">
-                                                        <!-- Employee image -->
-                                                        <img src="vetrina/images/team/team-loader.svg" data-src="vetrina/images/team/3.jpg" alt="example employee photo">
-                                                            <!-- Employee details -->
-                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
-                                                                <!-- Name -->
-                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
-                                                                    Claire Brown
-                                                                </h2>
-                                                                <!-- Position -->
-                                                                <p class="uppercase colored fs-13 medium mt-5 animated-hover fast" data-animation="fadeInDown" data-animation-delay="50">
-                                                                    DEVELOPER
-                                                                </p>
-                                                                <!-- Description -->
-                                                                <p class="fs-15 white t-center px-15 animated-hover fast" data-animation="fadeInDown" data-animation-delay="100">
-                                                                    It is a long established fact that a reader will be distracted by the readable content.
-                                                                </p>
-                                                                <!-- Social networks -->
-                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
-                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
-                                                                        <i class="bi-twitter"></i>
-                                                                    </a>
-                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
-                                                                        <i class="bi-facebook"></i>
-                                                                    </a>
-                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
-                                                                        <i class="bi-instagram"></i>
-                                                                    </a>
-                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
-                                                                        <i class="bi-linkedin"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                    </div>
-                                                    <!-- End container for member details -->
-                                                </div>
-                                                <!-- End member column -->
-                                                <!-- Member column -->
-                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
-                                                    <!-- Container for member details -->
-                                                    <div class="has-overlay animated-container block-img">
-                                                        <!-- Employee image -->
-                                                        <img src="vetrina/images/team/team-loader.svg" data-src="vetrina/images/team/4.jpg" alt="example employee photo">
-                                                            <!-- Employee details -->
-                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
-                                                                <!-- Name -->
-                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
-                                                                    Sarah Crost
-                                                                </h2>
-                                                                <!-- Position -->
-                                                                <p class="uppercase colored fs-13 medium mt-5 animated-hover fast" data-animation="fadeInDown" data-animation-delay="50">
-                                                                    Photographer
-                                                                </p>
-                                                                <!-- Description -->
-                                                                <p class="fs-15 white t-center px-15 animated-hover fast" data-animation="fadeInDown" data-animation-delay="100">
-                                                                    It is a long established fact that a reader will be distracted by the readable content.
-                                                                </p>
-                                                                <!-- Social networks -->
-                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
-                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
-                                                                        <i class="bi-twitter"></i>
-                                                                    </a>
-                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
-                                                                        <i class="bi-facebook"></i>
-                                                                    </a>
-                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
-                                                                        <i class="bi-instagram"></i>
-                                                                    </a>
-                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
-                                                                        <i class="bi-linkedin"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                    </div>
-                                                    <!-- End container for member details -->
-                                                </div>
-                                                <!-- End member column -->
-                                                <!-- Member column -->
-                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
-                                                    <!-- Container for member details -->
-                                                    <div class="has-overlay animated-container block-img">
-                                                        <!-- Employee image -->
-                                                        <img src="vetrina/images/team/team-loader.svg" data-src="vetrina/images/team/5.jpg" alt="example employee photo">
-                                                            <!-- Employee details -->
-                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
-                                                                <!-- Name -->
-                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
-                                                                    Elinor Clay
-                                                                </h2>
-                                                                <!-- Position -->
-                                                                <p class="uppercase colored fs-13 medium mt-5 animated-hover fast" data-animation="fadeInDown" data-animation-delay="50">
-                                                                    UI/UX Designer
-                                                                </p>
-                                                                <!-- Description -->
-                                                                <p class="fs-15 white t-center px-15 animated-hover fast" data-animation="fadeInDown" data-animation-delay="100">
-                                                                    It is a long established fact that a reader will be distracted by the readable content.
-                                                                </p>
-                                                                <!-- Social networks -->
-                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
-                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
-                                                                        <i class="bi-twitter"></i>
-                                                                    </a>
-                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
-                                                                        <i class="bi-facebook"></i>
-                                                                    </a>
-                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
-                                                                        <i class="bi-instagram"></i>
-                                                                    </a>
-                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
-                                                                        <i class="bi-linkedin"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                    </div>
-                                                    <!-- End container for member details -->
-                                                </div>
-                                                <!-- End member column -->
-                                                <!-- Member column -->
-                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
-                                                    <!-- Container for member details -->
-                                                    <div class="has-overlay animated-container block-img">
-                                                        <!-- Employee image -->
-                                                        <img src="vetrina/images/team/team-loader.svg" data-src="vetrina/images/team/6.jpg" alt="example employee photo">
-                                                            <!-- Employee details -->
-                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
-                                                                <!-- Name -->
-                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
-                                                                    Nevaeh Dalton
-                                                                </h2>
-                                                                <!-- Position -->
-                                                                <p class="uppercase colored fs-13 medium mt-5 animated-hover fast" data-animation="fadeInDown" data-animation-delay="50">
-                                                                    Photographer
-                                                                </p>
-                                                                <!-- Description -->
-                                                                <p class="fs-15 white t-center px-15 animated-hover fast" data-animation="fadeInDown" data-animation-delay="100">
-                                                                    It is a long established fact that a reader will be distracted by the readable content.
-                                                                </p>
-                                                                <!-- Social networks -->
-                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
-                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
-                                                                        <i class="bi-twitter"></i>
-                                                                    </a>
-                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
-                                                                        <i class="bi-facebook"></i>
-                                                                    </a>
-                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
-                                                                        <i class="bi-instagram"></i>
-                                                                    </a>
-                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
-                                                                        <i class="bi-linkedin"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                    </div>
-                                                    <!-- End container for member details -->
-                                                </div>
-                                                <!-- End member column -->
-                                            </div>
-                                            <!-- End row for all members -->
-                                        </div>
-                                        <!-- End container for the team members -->
-                                    </section>
-                                    <!-- End team section -->
+
                                     <!-- Start facts section -->
                                     <section id="fun-facts" class="py-100 bt-1 b-gray3">
                                         <!-- Container for title -->
@@ -1630,7 +1366,7 @@ if (!empty($_POST['azienda'])) {
                                                 <!-- Fullwidth column for iMac design -->
                                                 <div class="col-12 mt-30">
                                                     <!-- Image -->
-                                                    <img src="vetrina/images/mac-loader.svg" data-src="vetrina/images/mac.png" alt="mobile image template" class="block fullwidth">
+                                                    <img src="vetrina/images/mac-loader.svg" data-src="vetrina/images/mac_Ace.png" alt="mobile image template" class="block fullwidth">
                                                 </div>
                                                 <!-- End fullwidth column for iMac design -->
                                                 <!-- Column for fact -->
@@ -1724,7 +1460,7 @@ if (!empty($_POST['azienda'])) {
                                     </section>
                                     <!-- End facts section -->
                                     <!-- Video section -->
-                                    <section id="video" class="has-parallax py-250 bg-pattern d-flex align-items-center justify-content-center" data-bg="vetrina/images/video.jpg">
+                                    <section id="video" class="has-parallax py-250 bg-pattern d-flex align-items-center justify-content-center" data-bg="vetrina/images/video_3.mp4">
                                         <!-- Your video -->
                                         <div data-video-id="K3YxqjUvu1M" data-startAt="0" data-endAt="" id="youtubeVideo" class="youtube-video zi-0 pointer-events-none"></div>
                                         <!-- Button -->
@@ -1765,9 +1501,9 @@ if (!empty($_POST['azienda'])) {
                                                 <!-- Table -->
                                                 <div class="col-lg-3 col-sm-6 col-12 mt-30">
                                                     <!-- Top area with image and name -->
-                                                    <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/1.jpg">
+                                                    <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
                                                         <h3 class="bold uppercase t-shadow white">
-                                                            Starter
+                                                            BASIC
                                                         </h3>
                                                     </div>
                                                     <!-- Points list and price circle -->
@@ -1775,22 +1511,22 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Icon -->
                                                         <div class="icon-xxl bg-white move-up-half circle flex-column bs-inset">
                                                             <span class="font-secondary medium fs-40 lh-45 gray8">
-                                                                19$
+                                                                80€
                                                             </span>
                                                             <span class="fs-10 uppercase">
-                                                                Monthly
+                                                                Mensili
                                                             </span>
                                                         </div>
                                                         <!-- Start list -->
                                                         <ul class="p-0 mt--15 uppercase bold fs-13 gray8 t-center fullwidth">
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">5 BONUS</span> POINTS EVERY MONTH
+                                                                <span class="colored">Gestione Negozio</span> 
                                                             </li>
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">2 MONTHS</span> SUPPORT
+                                                                <span class="colored">7/7</span> SUPPORTO
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">10</span> SUBDOMAINS
+                                                                <span class="colored">Gestione</span> Magazzino, Ordini, clienti, fornitori
                                                             </li>
                                                         </ul>
                                                         <!-- Purchase button -->
@@ -1804,7 +1540,7 @@ if (!empty($_POST['azienda'])) {
                                                 <!-- Table -->
                                                 <div class="col-lg-3 col-sm-6 col-12 mt-30">
                                                     <!-- Top area with image and name -->
-                                                    <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/2.jpg">
+                                                    <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
                                                         <h3 class="bold uppercase t-shadow white">
                                                             STANDART
                                                         </h3>
@@ -1814,7 +1550,7 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Icon -->
                                                         <div class="icon-xxl bg-white move-up-half circle flex-column bs-inset">
                                                             <span class="font-secondary medium fs-40 lh-45 gray8">
-                                                                39$
+                                                                100€
                                                             </span>
                                                             <span class="fs-10 uppercase">
                                                                 Monthly
@@ -1843,7 +1579,7 @@ if (!empty($_POST['azienda'])) {
                                                 <!-- Table -->
                                                 <div class="col-lg-3 col-sm-6 col-12 mt-30">
                                                     <!-- Top area with image and name -->
-                                                    <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/3.jpg">
+                                                    <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
                                                         <h3 class="bold uppercase t-shadow white">
                                                             PROFESSIONAL
                                                         </h3>
@@ -1853,7 +1589,7 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Icon -->
                                                         <div class="icon-xxl bg-white move-up-half circle flex-column bs-inset">
                                                             <span class="font-secondary medium fs-40 lh-45 gray8">
-                                                                59$
+                                                                150€
                                                             </span>
                                                             <span class="fs-10 uppercase">
                                                                 Monthly
@@ -1882,7 +1618,7 @@ if (!empty($_POST['azienda'])) {
                                                 <!-- Table -->
                                                 <div class="col-lg-3 col-sm-6 col-12 mt-30">
                                                     <!-- Top area with image and name -->
-                                                    <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/4.jpg">
+                                                    <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
                                                         <h3 class="bold uppercase t-shadow white">
                                                             ENTERPRISE
                                                         </h3>
@@ -1892,7 +1628,7 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Icon -->
                                                         <div class="icon-xxl bg-white move-up-half circle flex-column bs-inset">
                                                             <span class="font-secondary medium fs-40 lh-45 gray8">
-                                                                79$
+                                                                150€
                                                             </span>
                                                             <span class="fs-10 uppercase">
                                                                 Monthly
