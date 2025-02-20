@@ -9,7 +9,7 @@ define ("DBPASS","prova");
 define ("DBNAME","admin_zero");
 */
 
-define ("DBUSER","Shitan");
+define ("DBUSER","testAcecrm");
 define ("DBPASS","!Demetrio1977Adele");
 define ("DBNAME","");
 
