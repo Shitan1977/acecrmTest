@@ -1,7 +1,7 @@
 <?php
-
-session_start();
-ob_start();
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 include_once 'libreria/mysql_class.php';
 
 //
@@ -21,7 +21,7 @@ class class_pagine extends MySQL {
 // gestione del menu
     public function PagineCRM($pag_menu) {
         
-        $this->db->Query("SELECT * FROM admin_acecrm.page WHERE  url='{$pag_menu}'");
+        $this->db->Query("SELECT * FROM test_acecrm.page WHERE  url='{$pag_menu}'");
         $pagine = $this->db->Row();
         if (isset($pag_menu)) {
             switch ($pag_menu) {
