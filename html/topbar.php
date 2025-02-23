@@ -13,7 +13,7 @@
                             <a href="content.php" class="logo">
                             <?php } ?>
                             <img src="assets/images/logo_sm_azzurro.png" alt="" class="logo-small">
-                            <img src="assets/images/logo_ace_bianco.png"  alt="" class="logo-large">
+                            <img src="assets/images/logo_ace_biancoN.png" style="width: 120px"  alt="" class="logo-large">
                         </a>
                         </div>
                         <!-- End Logo container-->
@@ -50,7 +50,7 @@
                                                 </h5>
                                             </div>
                                             <?php
-                                            if (!$assistenza->db->Query("SELECT * from admin_acecrm.supporto WHERE  idAzienda={$_SESSION['idAzienda']} ORDER BY idSupporto DESC LIMIT 3"));
+                                            if (!$assistenza->db->Query("SELECT * from test_acecrm.supporto WHERE  idAzienda={$_SESSION['idAzienda']} ORDER BY idSupporto DESC LIMIT 3"));
 
                                             while ($breviass = $assistenza->db->Row()) {
                                                 ?>
