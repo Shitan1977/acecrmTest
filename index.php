@@ -658,6 +658,7 @@ if (!empty($_POST['azienda'])) {
                                                         <p class="mt-10 gray6 white-hover-item slow">
                                                             Gestisci le risorse, organizza i ruoli e le competenze, assegnando autorizzazioni e permessi, compartimentando la tua azienda
                                                         </p>
+
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-right b-white b-colored-hover-item slow left-percent-100 top-percent-50 mt--15 absolute"></div>
                                                         <!-- Image and video content -->
@@ -713,6 +714,7 @@ if (!empty($_POST['azienda'])) {
                                                     <div class="pt-40 pb-55 px-35 slow bg-white bg-colored-hover-item radius-md fullwidth relative">
                                                         <!-- Date -->
                                                         <h6 class="medium gray7 white-hover-item uppercase slow">Gestione magazzino </h6>
+
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
                                                             Magazzino
@@ -1780,6 +1782,12 @@ if (!empty($_POST['azienda'])) {
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
+                                                            </li>
                                                         </ul>
                                                         <!-- Purchase button -->
                                                         <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
@@ -1831,6 +1839,18 @@ if (!empty($_POST['azienda'])) {
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Sito Vetrina</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Assistenza 12H</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
+                                                            </li>       
                                                         </ul>
                                                         <!-- Purchase button -->
                                                         <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
@@ -2124,9 +2144,6 @@ if (!empty($_POST['azienda'])) {
                                     <a id="back-to-top" href="#top" class="btt hide-on-home circle width-60 width-50-sm height-60 height-50-sm bg-white b-1 b-gray2 gray7">
                                         <i class="bi-chevron-up fs-18"></i>
                                     </a>
-
-
-
                                     <form method="post" action="index.php">
                                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                             <div class="modal-dialog">
@@ -2166,3 +2183,4 @@ if (!empty($_POST['azienda'])) {
                                 </body>
                                 <!-- Body End -->
                             </html>
+
