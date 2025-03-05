@@ -12,7 +12,7 @@ class class_fornitori extends MySQL {
         $this->db = new MySQL();
     }
 
-    public function GestioneFornitori($idFornitori = null, $nome, $cognome, $indirizzo = null, $cap = null, $idProvincia = null, $idComune = null, $idRegione = null, $fisso = null, $mobile = null, $ragioneSociale = null, $email = null, $codiceFiscale = null, $iva = null, $pws = null, $sesso = null, $cancella = null) {
+    public function GestioneFornitori( $nome, $cognome,$idFornitori = null, $indirizzo = null, $cap = null, $idProvincia = null, $idComune = null, $idRegione = null, $fisso = null, $mobile = null, $ragioneSociale = null, $email = null, $codiceFiscale = null, $iva = null, $pws = null, $sesso = null, $cancella = null) {
 
 
         $fornitori['nome'] = MySQL::SQLValue($nome, MySQL::SQLVALUE_TEXT);

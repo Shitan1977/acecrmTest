@@ -3,7 +3,7 @@
 class MySQL2
 {
 	private $db_host    = "95.110.131.98"; // nome del server
-	private $db_user    = "Shitan";          //username del database
+	private $db_user    = "testAcecrm";          //username del database
 	private $db_pass    = "!Demetrio1977Adele";          // password del database
 	private $db_dbname  = "test_acecrm";          // nome del database
 	private $db_charset = "utf8";          // optional character set (i.e. utf8)

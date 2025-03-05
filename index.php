@@ -62,7 +62,7 @@ if (!empty($_POST['azienda'])) {
         </div>
         <!-- Start Navigation -->
         <nav id="navigation" class="modern-nav fixed fixed-height fs-12 bs-xs link-hover-01 nav-white nav-lg" data-offset="75">
-            <!-- Navigation container - You can chnage container type and paddding value -->
+            <!-- Navigation container - You can change container type and padding value -->
             <div class="container nav-container">
                 <!-- Row for cols in the nav -->
                 <div class="row nav-wrapper justify-content-end">
@@ -91,7 +91,7 @@ if (!empty($_POST['azienda'])) {
                                                 </ul>
                                             </li>
                                             <li><a href="#works" class="nav-link">Gestionali</a></li>
-                                            <li><a href="#team" class="nav-link">Team</a></li>
+                                            <li><a href="#demo" class="nav-link">Demo</a></li>
                                             <li><a href="#prices" class="nav-link">Prezzi</a></li>
                                             <!-- Link, Extra Sub menu -->
 
@@ -179,7 +179,7 @@ if (!empty($_POST['azienda'])) {
                                                     </h4>
                                                     <!-- Paragraph -->
                                                     <p class="mxw-800 d-inline-flex mt-10 gray7">
-                                                        Layout dinamico device free 
+                                                        Layout dinamico device free
                                                     </p>
                                                 </div>
                                                 <!-- End column for box -->
@@ -458,7 +458,7 @@ if (!empty($_POST['azienda'])) {
                                                     <i class="bi-disc fs-40 gray8 colored-hover-item slow"></i>
                                                     <!-- Title -->
                                                     <h4 class="fs-17 mt-20 gray8 medium uppercase">
-                                                        Assisteza veloce 
+                                                        Assisteza veloce
                                                     </h4>
                                                     <!-- Desc -->
                                                     <p class="gray7 mt-15">
@@ -619,7 +619,6 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
                                                             Organizza e ordina tutti i tuoi fornitori con informazioni, storico degli ordini e catalogazione di fatture.
-
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-left b-white b-colored-hover-item slow right-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -650,7 +649,6 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Text Content -->
                                                     <div class="pt-40 pb-55 px-35 slow bg-white bg-colored-hover-item radius-md fullwidth relative">
                                                         <!-- Date -->
-
                                                         <h6 class="medium gray7 white-hover-item uppercase slow">Gerarchia aziendale</h6>
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
@@ -659,7 +657,8 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
                                                             Gestisci le risorse, organizza i ruoli e le competenze, assegnando autorizzazioni e permessi, compartimentando la tua azienda
-                                                      
+                                                        </p>
+
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-right b-white b-colored-hover-item slow left-percent-100 top-percent-50 mt--15 absolute"></div>
                                                         <!-- Image and video content -->
@@ -689,7 +688,6 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
                                                             Tieni sotto controllo gli ordini dei clienti, puoi in qualsiasi momento filtrare acquisti ordini in pochi secondi.
-                                                
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-left b-white b-colored-hover-item slow right-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -717,7 +715,6 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Date -->
                                                         <h6 class="medium gray7 white-hover-item uppercase slow">Gestione magazzino </h6>
 
-                                                       
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
                                                             Magazzino
@@ -1340,7 +1337,253 @@ if (!empty($_POST['azienda'])) {
                                         <!-- End container for all -->
                                     </section>
                                     <!-- End why We section -->
-
+                                    <!-- Start demo section -->
+                                    <section id="demo" class="py-100">
+                                        <!-- Container for title -->
+                                        <div class="container">
+                                            <!-- Column 12 for the title -->
+                                            <div class="d-flex flex-column align-items-center t-center">
+                                                <!-- Title -->
+                                                <h1 class="gray8 fs-50 fs-40-sm lh-50 lh-45-sm medium font-secondary uppercase">
+                                                    Oxygen's Creative Team
+                                                </h1>
+                                                <!-- Paragraph -->
+                                                <p class="mxw-800 d-inline-flex mt-15">
+                                                    On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and by the charms of pleasure of the moment, so blinded by desire
+                                                </p>
+                                            </div>
+                                            <!-- End column 12 for the title -->
+                                        </div>
+                                        <!-- End container for title -->
+                                        <!-- Container for the team members -->
+                                        <div class="container mt-30">
+                                            <!-- Row for all members -->
+                                            <div class="row">
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/Shop.png" data-src="vetrina/images/demo/Shop.png" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione Negozi
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demonegozio@acecrm.it, password cambiami, azienda Negozio
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/Travels.png" data-src="vetrina/images/demo/Travels.png" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class ="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione Viaggi
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demoviaggi@acecrm.it, password cambiami, azienda Viaggi
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/RentBuy.png" data-src="vetrina/images/demo/RentBuy.png" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class ="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione
+                                                                </h2>
+                                                                <h2 class ="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Vendita/Affitto Case
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demohouse@acecrm.it, password cambiami, azienda House
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                 <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/ShopGold.jpg" data-src="vetrina/images/demo/ShopGold.jpg" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione Negozi ORO
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demonegoziooro@acecrm.it, password cambiami, azienda Negozio
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/ERP.png" data-src="vetrina/images/demo/ERP.png" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    ERP
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demonherp@acecrm.it, password cambiami, azienda ERP
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/TuttoPratiche.jpg" data-src="vetrina/images/demo/TuttoPratiche.jpg" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione Tutte Pratiche
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demopratiche@acecrm.it, password cambiami, azienda Viaggi
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                            </div>
+                                            <!-- End row for all members -->
+                                        </div>
+                                        <!-- End container for the team members -->
+                                    </section>
+                                    <!-- End demo section -->
                                     <!-- Start facts section -->
                                     <section id="fun-facts" class="py-100 bt-1 b-gray3">
                                         <!-- Container for title -->
@@ -1503,46 +1746,7 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Top area with image and name -->
                                                     <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
                                                         <h3 class="bold uppercase t-shadow white">
-                                                            BASIC
-                                                        </h3>
-                                                    </div>
-                                                    <!-- Points list and price circle -->
-                                                    <div class="pb-30 b-1 b-gray3 d-flex align-items-center justify-content-center flex-column relative zi-5">
-                                                        <!-- Icon -->
-                                                        <div class="icon-xxl bg-white move-up-half circle flex-column bs-inset">
-                                                            <span class="font-secondary medium fs-40 lh-45 gray8">
-                                                                80€
-                                                            </span>
-                                                            <span class="fs-10 uppercase">
-                                                                Mensili
-                                                            </span>
-                                                        </div>
-                                                        <!-- Start list -->
-                                                        <ul class="p-0 mt--15 uppercase bold fs-13 gray8 t-center fullwidth">
-                                                            <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">Gestione Negozio</span> 
-                                                            </li>
-                                                            <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">7/7</span> SUPPORTO
-                                                            </li>
-                                                            <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">Gestione</span> Magazzino, Ordini, clienti, fornitori
-                                                            </li>
-                                                        </ul>
-                                                        <!-- Purchase button -->
-                                                        <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
-                                                            Buy now
-                                                        </a>
-                                                    </div>
-                                                    <!-- End points list -->
-                                                </div>
-                                                <!-- End table -->
-                                                <!-- Table -->
-                                                <div class="col-lg-3 col-sm-6 col-12 mt-30">
-                                                    <!-- Top area with image and name -->
-                                                    <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
-                                                        <h3 class="bold uppercase t-shadow white">
-                                                            STANDART
+                                                            Gestione Negozi
                                                         </h3>
                                                     </div>
                                                     <!-- Points list and price circle -->
@@ -1553,19 +1757,31 @@ if (!empty($_POST['azienda'])) {
                                                                 100€
                                                             </span>
                                                             <span class="fs-10 uppercase">
-                                                                Monthly
+                                                                Mensili
                                                             </span>
                                                         </div>
                                                         <!-- Start list -->
                                                         <ul class="p-0 mt--15 uppercase bold fs-13 gray8 t-center fullwidth">
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">5 BONUS</span> POINTS EVERY MONTH
+                                                                <span class="colored">Multi Negozi</span>
                                                             </li>
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">2 MONTHS</span> SUPPORT
+                                                                <span class="colored">Sincronizzazione con CMS</span>
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">10</span> SUBDOMAINS
+                                                                <span class="colored">Magazzino</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Generazione Barcode</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Assistenza 12H</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Purchase button -->
@@ -1581,7 +1797,7 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Top area with image and name -->
                                                     <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
                                                         <h3 class="bold uppercase t-shadow white">
-                                                            PROFESSIONAL
+                                                            Gestione Viaggi
                                                         </h3>
                                                     </div>
                                                     <!-- Points list and price circle -->
@@ -1589,26 +1805,38 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Icon -->
                                                         <div class="icon-xxl bg-white move-up-half circle flex-column bs-inset">
                                                             <span class="font-secondary medium fs-40 lh-45 gray8">
-                                                                150€
+                                                                100€
                                                             </span>
                                                             <span class="fs-10 uppercase">
-                                                                Monthly
+                                                                Mensili
                                                             </span>
                                                         </div>
                                                         <!-- Start list -->
                                                         <ul class="p-0 mt--15 uppercase bold fs-13 gray8 t-center fullwidth">
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">5 BONUS</span> POINTS EVERY MONTH
+                                                                <span class="colored">Prenotazione</span>
                                                             </li>
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">2 MONTHS</span> SUPPORT
+                                                                <span class="colored">Pagamenti</span>
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">10</span> SUBDOMAINS
+                                                                <span class="colored">Report pagamenti</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Sito Vetrina</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Assistenza 12H</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Purchase button -->
-                                                        <a href="#" class="btn-sm mt-10 radius-0 uppercase white bg-colored bg-colored1-hover bold slow">
+                                                        <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
                                                             Buy now
                                                         </a>
                                                     </div>
@@ -1620,7 +1848,7 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Top area with image and name -->
                                                     <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
                                                         <h3 class="bold uppercase t-shadow white">
-                                                            ENTERPRISE
+                                                            Gestione Vendita/Affitto Case
                                                         </h3>
                                                     </div>
                                                     <!-- Points list and price circle -->
@@ -1628,22 +1856,85 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Icon -->
                                                         <div class="icon-xxl bg-white move-up-half circle flex-column bs-inset">
                                                             <span class="font-secondary medium fs-40 lh-45 gray8">
-                                                                150€
+                                                                120€
                                                             </span>
                                                             <span class="fs-10 uppercase">
-                                                                Monthly
+                                                                Mensile
                                                             </span>
                                                         </div>
                                                         <!-- Start list -->
                                                         <ul class="p-0 mt--15 uppercase bold fs-13 gray8 t-center fullwidth">
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">5 BONUS</span> POINTS EVERY MONTH
+                                                                <span class="colored">Gestione Pacchetti Offerte</span>
                                                             </li>
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">2 MONTHS</span> SUPPORT
+                                                                <span class="colored">Anagrafiche Case/Appartamenti</span>
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">10</span> SUBDOMAINS
+                                                                <span class="colored">Agenda Appuntamenti Clienti</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Sito Vetrina</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Assistenza 12H</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- Purchase button -->
+                                                        <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
+                                                            Buy now
+                                                        </a>
+                                                    </div>
+                                                    <!-- End points list -->
+                                                </div>
+                                                <!-- End table -->
+                                                <!-- Table -->
+                                                <div class="col-lg-3 col-sm-6 col-12 mt-30">
+                                                    <!-- Top area with image and name -->
+                                                    <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
+                                                        <h3 class="bold uppercase t-shadow white">
+                                                            ERP
+                                                        </h3>
+                                                    </div>
+                                                    <!-- Points list and price circle -->
+                                                    <div class="pb-30 b-1 b-gray3 d-flex align-items-center justify-content-center flex-column relative zi-5">
+                                                        <!-- Icon -->
+                                                        <div class="icon-xxl bg-white move-up-half circle flex-column bs-inset">
+                                                            <span class="font-secondary medium fs-40 lh-45 gray8">
+                                                                200€
+                                                            </span>
+                                                            <span class="fs-10 uppercase">
+                                                                Mensili
+                                                            </span>
+                                                        </div>
+                                                        <!-- Start list -->
+                                                        <ul class="p-0 mt--15 uppercase bold fs-13 gray8 t-center fullwidth">
+                                                            <li class="bt-1 b-gray3 py-15">
+                                                                <span class="colored">Gestione Azienda</span>
+                                                            </li>
+                                                            <li class="bt-1 b-gray3 py-15">
+                                                                <span class="colored">Gestione Personale</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Gestione Amministrativa</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Sito Vetrina</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Assistenza 12H</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Purchase button -->
@@ -1663,27 +1954,11 @@ if (!empty($_POST['azienda'])) {
                                     <!-- Container for map -->
                                     <div id="map" class="hotspots fullwidth">
                                         <!-- Your map image -->
-                                        <a href="https://www.google.com.tr/maps/place/Place+du+Trocadero/@48.8622259,2.2867585,18.35z/data=!4m13!1m7!3m6!1s0x47e6701f7e8337b5:0xa2cb58dd28914524!2sEiffel+Tower,+Paris,+Fransa!3b1!8m2!3d48.8560934!4d2.2930458!3m4!1s0x47e66fe3405d7ecf:0xc03ac392486d25b5!8m2!3d48.8629697!4d2.2871786" target="_blank" class="d-block fullwidth c-explore">
+                                        <div class ="d-block fullwidth c-explore flex-fill">
                                             <!-- Your map image -->
-                                            <img src="vetrina/images/map_loader.svg" data-src="vetrina/images/map_02.jpg" alt="map image template" class="fullwidth">
-                                        </a>
-                                        <!-- Items -->
-                                        <div class="items pointer-events-none">
-                                            <!-- Item -->
-                                            <div style="right:41.2%; bottom:43.8%;" class="item animated fast" data-animation="blurIn" data-animation-delay="100">
-                                                <div class="c-pointer pointer-events-all"
-                                                     data-bs-toggle="popover"
-                                                     data-bs-trigger="click"
-                                                     data-bs-placement="top"
-                                                     data-bs-html="true"
-                                                     data-show="true"
-                                                     title="<h4 class='fs-19'>New york Office</h4>"
-                                                     data-bs-content="<p class='mt-10 lh-25 fs-15'>2962 Bedford Street Connecticut CT 10011 New York</p>">
-                                                    <img src="vetrina/images/pin_01.svg" alt="pin design on map image">
-                                                </div>
-                                            </div>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6030.6282640342515!2d14.3038965!3d40.9088577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133ba9cb88e5e2f1%3A0xd1194b4a219f7a56!2sIII%20Traversa%20Via%20Arcangelo%20Astone%2C%2029%2C%2080026%20Casoria%20NA!5e0!3m2!1sen!2sit!4v1740306358479!5m2!1sen!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="fullwidth">
+                                            </iframe>
                                         </div>
-                                        <!-- End items -->
                                     </div>
                                     <!-- End container for map -->
                                     <!-- Contact Section -->
@@ -1808,12 +2083,12 @@ if (!empty($_POST['azienda'])) {
                                             <div class="mt-20 width-40 height-1 bg-gray5"></div>
                                             <!-- Phone, e-mail and address -->
                                             <p class="mt-20 uppercase bold ls--04 fs-14">
-                                                <a href="tel:0123456789" class="underline-hover">01234 56 78 90</a>
+                                                <a href="tel:0810000000" class="underline-hover">081 0000000</a>
                                                 &
-                                                <a href="mailto:goldeyestheme@gmail.com" class="underline-hover">goldeyestheme@gmail.com</a>
+                                                <a href="mailto:freestyleweb@gmail.com" class="underline-hover">freestyleweb@gmail.com</a>
                                                 <br>
                                                     <address>
-                                                        1234 Street Name, City Name
+                                                        III traversa Arcangelo Astone 29 Casoria, Napoli
                                                     </address>
                                             </p>
                                             <!-- Back to top button -->
@@ -1837,7 +2112,7 @@ if (!empty($_POST['azienda'])) {
                                                             <p class="mt-15 gray4 uppercase fs-14 medium">
                                                                 ©2019-2022 All Rights Reserved.
                                                                 <br>
-                                                                    Designed by <a href="https://freestyleweb.it" target="_blank" class="colored underline-hover">Freestyle Agency</a> Acecrm <a href="https://acecrm.it" target="_blank" class="colored underline-hover">Gestionale Aziedndale.</a>
+                                                                    Designed by <a href="https://freestyleweb.it" target="_blank" class="colored underline-hover">Freestyle Agency</a> Acecrm <a href="https://acecrm.it" target="_blank" class="colored underline-hover">Gestionale Aziendale.</a>
                                                             </p>
                                                     </div>
                                                 </div>
@@ -1891,6 +2166,6 @@ if (!empty($_POST['azienda'])) {
                                     <!-- MAIN SCRIPTS - Classic scripts for all theme -->
                                     <script src="vetrina/js/functions.js?v=1.0"></script>
                                     <!-- END JS FILES -->
-                                    </body>
-                                    <!-- Body End -->
-                                    </html>
+                                </body>
+                                <!-- Body End -->
+                            </html>
