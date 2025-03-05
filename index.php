@@ -91,6 +91,7 @@ if (!empty($_POST['azienda'])) {
                                                 </ul>
                                             </li>
                                             <li><a href="#works" class="nav-link">Gestionali</a></li>
+                                            <li><a href="#demo" class="nav-link">Demo</a></li>
                                             <li><a href="#prices" class="nav-link">Prezzi</a></li>
                                             <!-- Link, Extra Sub menu -->
 
@@ -178,7 +179,7 @@ if (!empty($_POST['azienda'])) {
                                                     </h4>
                                                     <!-- Paragraph -->
                                                     <p class="mxw-800 d-inline-flex mt-10 gray7">
-                                                        Layout dinamico device free 
+                                                        Layout dinamico device free
                                                     </p>
                                                 </div>
                                                 <!-- End column for box -->
@@ -457,7 +458,7 @@ if (!empty($_POST['azienda'])) {
                                                     <i class="bi-disc fs-40 gray8 colored-hover-item slow"></i>
                                                     <!-- Title -->
                                                     <h4 class="fs-17 mt-20 gray8 medium uppercase">
-                                                        Assisteza veloce 
+                                                        Assisteza veloce
                                                     </h4>
                                                     <!-- Desc -->
                                                     <p class="gray7 mt-15">
@@ -1333,7 +1334,253 @@ if (!empty($_POST['azienda'])) {
                                         <!-- End container for all -->
                                     </section>
                                     <!-- End why We section -->
-
+                                    <!-- Start demo section -->
+                                    <section id="demo" class="py-100">
+                                        <!-- Container for title -->
+                                        <div class="container">
+                                            <!-- Column 12 for the title -->
+                                            <div class="d-flex flex-column align-items-center t-center">
+                                                <!-- Title -->
+                                                <h1 class="gray8 fs-50 fs-40-sm lh-50 lh-45-sm medium font-secondary uppercase">
+                                                    Oxygen's Creative Team
+                                                </h1>
+                                                <!-- Paragraph -->
+                                                <p class="mxw-800 d-inline-flex mt-15">
+                                                    On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and by the charms of pleasure of the moment, so blinded by desire
+                                                </p>
+                                            </div>
+                                            <!-- End column 12 for the title -->
+                                        </div>
+                                        <!-- End container for title -->
+                                        <!-- Container for the team members -->
+                                        <div class="container mt-30">
+                                            <!-- Row for all members -->
+                                            <div class="row">
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/Shop.png" data-src="vetrina/images/demo/Shop.png" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione Negozi
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demonegozio@acecrm.it, password cambiami, azienda Negozio
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/Travels.png" data-src="vetrina/images/demo/Travels.png" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class ="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione Viaggi
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demoviaggi@acecrm.it, password cambiami, azienda Viaggi
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/RentBuy.png" data-src="vetrina/images/demo/RentBuy.png" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class ="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione
+                                                                </h2>
+                                                                <h2 class ="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Vendita/Affitto Case
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demohouse@acecrm.it, password cambiami, azienda House
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                 <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/ShopGold.jpg" data-src="vetrina/images/demo/ShopGold.jpg" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione Negozi ORO
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demonegoziooro@acecrm.it, password cambiami, azienda Negozio
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/ERP.png" data-src="vetrina/images/demo/ERP.png" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    ERP
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demonherp@acecrm.it, password cambiami, azienda ERP
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/TuttoPratiche.jpg" data-src="vetrina/images/demo/TuttoPratiche.jpg" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione Tutte Pratiche
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demopratiche@acecrm.it, password cambiami, azienda Viaggi
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                            </div>
+                                            <!-- End row for all members -->
+                                        </div>
+                                        <!-- End container for the team members -->
+                                    </section>
+                                    <!-- End demo section -->
                                     <!-- Start facts section -->
                                     <section id="fun-facts" class="py-100 bt-1 b-gray3">
                                         <!-- Container for title -->
@@ -1533,9 +1780,6 @@ if (!empty($_POST['azienda'])) {
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
-                                                            <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">Demo <br>username: demonegozio@acecrm.it<br>password: cambiami<br> azienda: Negozio</span>
-                                                            </li>
                                                         </ul>
                                                         <!-- Purchase button -->
                                                         <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
@@ -1586,9 +1830,6 @@ if (!empty($_POST['azienda'])) {
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Autorizzazione Multilivello</span>
-                                                            </li>
-                                                            <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">Demo <br>username:<br>demoviaggi@acecrm.it<br>password: cambiami<br> azienda: Viaggi</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Purchase button -->
@@ -1641,9 +1882,6 @@ if (!empty($_POST['azienda'])) {
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
-                                                            <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">Demo <br>username:<br>demohouse@acecrm.it<br>password: cambiami<br> azienda: House</span>
-                                                            </li>
                                                         </ul>
                                                         <!-- Purchase button -->
                                                         <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
@@ -1694,9 +1932,6 @@ if (!empty($_POST['azienda'])) {
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Autorizzazione Multilivello</span>
-                                                            </li>
-                                                            <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">Demo <br>username:<br>demoherp@acecrm.it<br>password: cambiami<br> azienda: ERP</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Purchase button -->
