@@ -15,7 +15,7 @@ class class_lingua extends MySQL {
 
 
     public function selectLingue($idLingue=null) {
-        if ($this->db->Query("SELECT * FROM admin_acecrm.lingue"))
+        if ($this->db->Query("SELECT * FROM test_acecrm.lingue"))
             ;
         while ($lingua = $this->db->Row()) {
             echo "<option value='{$lingua->sigla}'";

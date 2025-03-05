@@ -1,7 +1,7 @@
 <?php
-
-session_start();
-ob_start();
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 require_once $_SERVER["DOCUMENT_ROOT"] . '/libreria/mysql_class.php';
 
 class class_cliente extends MySQL {
@@ -14,7 +14,7 @@ class class_cliente extends MySQL {
         $this->db = new MySQL();
     }
 
-    public function GestioneClienti($idAnagrafica = null, $nome, $cognome, $indirizzo = null, $cap = null, $PosizioneRicoperta = null, $idProvincia = null, $idComune = null, $idRegione = null, $fisso = null, $mobile = null, $ragioneSociale = null, $email = null, $codiceFiscale = null, $iva = null, $pws = null, $sesso = null, $cancella = null) {
+    public function GestioneClienti($nome, $cognome, $idAnagrafica = null, $indirizzo = null, $cap = null, $PosizioneRicoperta = null, $idProvincia = null, $idComune = null, $idRegione = null, $fisso = null, $mobile = null, $ragioneSociale = null, $email = null, $codiceFiscale = null, $iva = null, $pws = null, $sesso = null, $cancella = null) {
 
         $db = new MySQL();
         $cliente['nome'] = MySQL::SQLValue($nome, MySQL::SQLVALUE_TEXT);
