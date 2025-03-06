@@ -91,9 +91,7 @@ if (!empty($_POST['azienda'])) {
                                                 </ul>
                                             </li>
                                             <li><a href="#works" class="nav-link">Gestionali</a></li>
-
                                             <li><a href="#demo" class="nav-link">Demo</a></li>
-
                                             <li><a href="#prices" class="nav-link">Prezzi</a></li>
                                             <!-- Link, Extra Sub menu -->
 
@@ -754,7 +752,6 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
                                                             Sincronizza
-
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
@@ -1778,7 +1775,6 @@ if (!empty($_POST['azienda'])) {
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Assistenza 12H</span>
-
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Customizzazione dei Moduli</span>
@@ -1787,7 +1783,11 @@ if (!empty($_POST['azienda'])) {
                                                                 <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">Demo <br>username: demonegozio@acecrm.it<br>password: cambiami<br> azienda: Negozio</span>
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
+                                                            </li>
                                                         </ul>
                                                         <!-- Purchase button -->
                                                         <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
@@ -1823,7 +1823,6 @@ if (!empty($_POST['azienda'])) {
                                                             </li>
                                                             <li class="bt-1 b-gray3 py-15">
                                                                 <span class="colored">Pagamenti</span>
-
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Report pagamenti</span>
@@ -1841,10 +1840,17 @@ if (!empty($_POST['azienda'])) {
                                                                 <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">Demo <br>username:<br>demoviaggi@acecrm.it<br>password: cambiami<br> azienda: Viaggi</span>
-
+                                                                <span class="colored">Sito Vetrina</span>
                                                             </li>
-                                                      
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Assistenza 12H</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
+                                                            </li>       
                                                         </ul>
                                                         <!-- Purchase button -->
                                                         <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
@@ -1896,10 +1902,6 @@ if (!empty($_POST['azienda'])) {
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
-                                                            <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">Demo <br>username:<br>demohouse@acecrm.it<br>password: cambiami<br> azienda: House</span>
-
-                                                            </li>
                                                         </ul>
                                                         <!-- Purchase button -->
                                                         <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
@@ -1938,7 +1940,6 @@ if (!empty($_POST['azienda'])) {
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Gestione Amministrativa</span>
-
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Sito Vetrina</span>
@@ -1952,11 +1953,6 @@ if (!empty($_POST['azienda'])) {
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
-                                                            <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">Demo <br>username:<br>demoherp@acecrm.it<br>password: cambiami<br> azienda: ERP</span>
-
-                                                            </li>
-
                                                         </ul>
                                                         <!-- Purchase button -->
                                                         <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
@@ -2148,9 +2144,6 @@ if (!empty($_POST['azienda'])) {
                                     <a id="back-to-top" href="#top" class="btt hide-on-home circle width-60 width-50-sm height-60 height-50-sm bg-white b-1 b-gray2 gray7">
                                         <i class="bi-chevron-up fs-18"></i>
                                     </a>
-
-
-
                                     <form method="post" action="index.php">
                                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                             <div class="modal-dialog">
@@ -2190,3 +2183,4 @@ if (!empty($_POST['azienda'])) {
                                 </body>
                                 <!-- Body End -->
                             </html>
+

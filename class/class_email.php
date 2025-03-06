@@ -14,7 +14,7 @@ class class_email extends MySQL {
         $this->db2 = new MySQL();
     }
 
-    #metodo nmtfica opeeratoro
+    #metodo notifica operatori
 
     public function notificaOperatori() {
 
@@ -134,7 +134,6 @@ class class_email extends MySQL {
                                 <th>Quantità </th>
                                 <th>Dimensioni </th>
                                 <th>Note </th>
-                               
                             </tr>
                         </thead>
                         <tbody>';
@@ -148,7 +147,6 @@ class class_email extends MySQL {
                 <td>{$rfin->qnt}</td>
                 <td>{$rfin->dimensione}</td>
                 <td>{$rfin->note}</td>
-               
             </tr>";
             }
         }
