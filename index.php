@@ -262,7 +262,7 @@ if (!empty($_POST['azienda'])) {
                                                      data-bs-placement="top"
                                                      data-animation="false"
                                                      data-bs-html="true"
-                                                     title="<p class='fs-16'>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>">
+                                                     title="<p class='fs-16'>Analizza i dati dei tuoi clienti e scopri come migliorare la tua strategia commerciale. Il nostro software ti aiuta a capire i trend e a prendere decisioni informate in maniera facile e veloce."</p>
                                                     <!-- Icon -->
                                                     <div class="icon-xl radius-md b-1 b-gray3 b-dark-hover-item bg-gray2-hover-item c-info gray2 dark-hover-item slow arrow-bottom">
                                                         <i class="bi-lightning-fill fs-23"></i>
@@ -279,7 +279,7 @@ if (!empty($_POST['azienda'])) {
                                                      data-bs-placement="top"
                                                      data-animation="false"
                                                      data-bs-html="true"
-                                                     title="<p class='fs-16'>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>">
+                                                     title="<p class='fs-16'>Il nostro software è compatibile con tutti gli e-commerce più popolari. Puoi integrarlo facilmente con il tuo sito web e gestire le vendite in modo efficiente.</p>">
                                                     <!-- Icon -->
                                                     <div class="icon-xl radius-md b-1 b-gray3 b-dark-hover-item bg-gray2-hover-item c-info gray2 dark-hover-item slow arrow-bottom">
                                                         <i class="bi-laptop fs-23"></i>
@@ -296,7 +296,7 @@ if (!empty($_POST['azienda'])) {
                                                      data-bs-placement="top"
                                                      data-animation="false"
                                                      data-bs-html="true"
-                                                     title="<p class='fs-16'>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>">
+                                                     title="<p class='fs-16'>Il nostro software ti permette di inviare fatture elettroniche a tutti i gestori di pagamento più comuni. Risparmia tempo e riduci gli errori.</p>">
                                                     <!-- Icon -->
                                                     <div class="icon-xl radius-md b-1 b-gray3 b-dark-hover-item bg-gray2-hover-item c-info gray2 dark-hover-item slow arrow-bottom">
                                                         <i class="bi-journals fs-23"></i>
@@ -313,14 +313,14 @@ if (!empty($_POST['azienda'])) {
                                                      data-bs-placement="top"
                                                      data-animation="false"
                                                      data-bs-html="true"
-                                                     title="<p class='fs-16'>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>">
+                                                     title="<p class='fs-16'>Il nostro software ti aiuta a gestire il tuo magazzino in modo efficiente, sincronizzando gli ordini e le scorte in tempo reale.</p>">
                                                     <!-- Icon -->
                                                     <div class="icon-xl radius-md b-1 b-gray3 b-dark-hover-item bg-gray2-hover-item c-info gray2 dark-hover-item slow arrow-bottom">
                                                         <i class="bi-keyboard fs-23"></i>
                                                     </div>
                                                     <!-- Title -->
                                                     <h4 class="fs-17 mt-30 gray2">
-                                                        Gestione Magazzino sincronizzazione ordini 
+                                                        Gestione Magazzino sincronizzazione ordini
                                                     </h4>
                                                 </div>
                                                 <!-- End column for box -->
@@ -330,7 +330,7 @@ if (!empty($_POST['azienda'])) {
                                                      data-bs-placement="top"
                                                      data-animation="false"
                                                      data-bs-html="true"
-                                                     title="<p class='fs-16'>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>">
+                                                     title="<p class='fs-16'>Il nostro software è personalizzabile per adattarsi alle tue esigenze specifiche. Puoi aggiungere o rimuovere funzionalità per creare un sistema che funziona per te.</p>">
                                                     <!-- Icon -->
                                                     <div class="icon-xl radius-md b-1 b-gray3 b-dark-hover-item bg-gray2-hover-item c-info gray2 dark-hover-item slow arrow-bottom">
                                                         <i class="bi-disc fs-23"></i>
@@ -347,14 +347,14 @@ if (!empty($_POST['azienda'])) {
                                                      data-bs-placement="top"
                                                      data-animation="false"
                                                      data-bs-html="true"
-                                                     title="<p class='fs-16'>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>">
+                                                     title="<p class='fs-16'>Il nostro software ti permette di aggiungere o rimuovere moduli in qualsiasi momento, senza dover reinstallare il software. È facile e veloce!</p>">
                                                     <!-- Icon -->
                                                     <div class="icon-xl radius-md b-1 b-gray3 b-dark-hover-item bg-gray2-hover-item c-info gray2 dark-hover-item slow arrow-bottom">
                                                         <i class="bi-brush fs-23"></i>
                                                     </div>
                                                     <!-- Title -->
                                                     <h4 class="fs-17 mt-30 gray2">
-                                                        Agginta Moduli in qualsiasi momento.
+                                                        Aggiunta Moduli in qualsiasi momento.
                                                     </h4>
                                                 </div>
                                                 <!-- End column for box -->
@@ -658,6 +658,7 @@ if (!empty($_POST['azienda'])) {
                                                         <p class="mt-10 gray6 white-hover-item slow">
                                                             Gestisci le risorse, organizza i ruoli e le competenze, assegnando autorizzazioni e permessi, compartimentando la tua azienda
                                                         </p>
+
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-right b-white b-colored-hover-item slow left-percent-100 top-percent-50 mt--15 absolute"></div>
                                                         <!-- Image and video content -->
@@ -713,6 +714,7 @@ if (!empty($_POST['azienda'])) {
                                                     <div class="pt-40 pb-55 px-35 slow bg-white bg-colored-hover-item radius-md fullwidth relative">
                                                         <!-- Date -->
                                                         <h6 class="medium gray7 white-hover-item uppercase slow">Gestione magazzino </h6>
+
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
                                                             Magazzino
@@ -1141,8 +1143,8 @@ if (!empty($_POST['azienda'])) {
                                                                                 data-bs-placement="left"
                                                                                 data-bs-html="true"
                                                                                 data-show="true"
-                                                                                title="<h4 class='fs-19'>This is a shortcode!</h4>"
-                                                                                data-bs-content="<p class='mt-10 lh-25 fs-15'>If you use this site regularly and would like to help keep the site on the Internet</p>"
+                                                                                title="<h4 class='fs-19'>Facilità di accesso</h4>"
+                                                                                data-bs-content="<p class='mt-10 lh-25 fs-15'>Con il nostro software, puoi accedere ai tuoi dati e alle tue funzionalità da qualsiasi dispositivo, in qualsiasi momento. Non importa se sei in ufficio, in viaggio o a casa, puoi sempre avere accesso alle informazioni che ti servono.</p>"
                                                                                 class="icon-md bg-dark circle bg-colored-hover white slow move-downright-half">
                                                                             <i class="bi-plus-lg"></i>
                                                                         </button>
@@ -1158,8 +1160,8 @@ if (!empty($_POST['azienda'])) {
                                                                                 data-bs-placement="top"
                                                                                 data-bs-html="true"
                                                                                 data-show="true"
-                                                                                title="<h4 class='fs-19'>This is a shortcode!</h4>"
-                                                                                data-bs-content="<p class='mt-10 lh-25 fs-15'>If you use this site regularly and would like to help keep the site on the Internet</p>"
+                                                                                title="<h4 class='fs-19'>Sincronizzazione automatica</h4>"
+                                                                                data-bs-content="<p class='mt-10 lh-25 fs-15'>Il nostro software sincronizza automaticamente i tuoi dati e le tue funzionalità su tutti i dispositivi, ciò significa che puoi lavorare in modo efficiente e senza problemi, senza dover preoccuparti di sincronizzare manualmente i dati.</p>"
                                                                                 class="icon-md bg-dark circle bg-colored-hover white slow move-upright-half">
                                                                             <i class="bi-plus-lg"></i>
                                                                         </button>
@@ -1175,8 +1177,8 @@ if (!empty($_POST['azienda'])) {
                                                                                 data-bs-placement="bottom"
                                                                                 data-bs-html="true"
                                                                                 data-show="true"
-                                                                                title="<h4 class='fs-19'>This is a shortcode!</h4>"
-                                                                                data-bs-content="<p class='mt-10 lh-25 fs-15'>If you use this site regularly and would like to help keep the site on the Internet</p>"
+                                                                                title="<h4 class='fs-19'>Protezione dei dati</h4>"
+                                                                                data-bs-content="<p class='mt-10 lh-25 fs-15'>Il nostro software offre una protezione dei dati robusta e sicura, ciò significa che i tuoi dati sono sempre al sicuro e protetti da accessi non autorizzati. Puoi essere sicuro di lavorare in modo sicuro e protetto.</p>"
                                                                                 class="icon-md bg-dark circle bg-colored-hover white slow move-upright-half">
                                                                             <i class="bi-plus-lg"></i>
                                                                         </button>
@@ -1207,7 +1209,7 @@ if (!empty($_POST['azienda'])) {
                                                                 </div>
                                                                 <!-- Texts -->
                                                                 <div class="ml-15">
-                                                                    <h4 class="fs-16 fs-14-sm">Esso infatti di adatta a tutti gli scenari.</h4>
+                                                                    <h4 class="fs-16 fs-14-sm">Esso infatti si adatta a tutti gli scenari.</h4>
                                                                 </div>
                                                             </div>
                                                             <!-- Right icons -->
@@ -1239,7 +1241,7 @@ if (!empty($_POST['azienda'])) {
                                                                 </div>
                                                                 <!-- Texts -->
                                                                 <div class="ml-15">
-                                                                    <h4 class="fs-16 fs-14-sm">It has roots in a piece of classical Latin literature from</h4>
+                                                                    <h4 class="fs-16 fs-14-sm">Semplicità e versatilità</h4>
                                                                 </div>
                                                             </div>
                                                             <!-- Right icons -->
@@ -1255,7 +1257,7 @@ if (!empty($_POST['azienda'])) {
                                                             <div class="p-3 pb-30">
                                                                 <!-- Paragraph -->
                                                                 <p class="fs-18 fs-16-sm dark2 lh-30">
-                                                                    Duis ac fringilla libero. Curabitur vel placerat felis. Nam varius, velit in porttitor pulvinar, mi augue convallis felis, ut ultrices lectus felis in enim. Mauris vel gravida nisi. Vivamus ut placerat odio, a tempus velit. Ut eu bibendum odio, at imperdiet augue. Cras non placerat libero. Sed nec finibus elit, at finibus ligula.
+                                                                Il nostro software è facile da utilizzare e può essere adattato a tutte le esigenze del tuo business. Non importa se sei una piccola azienda o un'impresa di grandi dimensioni, il nostro software è la scelta giusta per te.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -1271,7 +1273,7 @@ if (!empty($_POST['azienda'])) {
                                                                 </div>
                                                                 <!-- Texts -->
                                                                 <div class="ml-15">
-                                                                    <h4 class="fs-16 fs-14-sm">Sydney College in Virginia, looked up one of the more obscure Latin .</h4>
+                                                                    <h4 class="fs-16 fs-14-sm">Sviluppo e crescita continua</h4>
                                                                 </div>
                                                             </div>
                                                             <!-- Right icons -->
@@ -1287,7 +1289,7 @@ if (!empty($_POST['azienda'])) {
                                                             <div class="p-3 pb-30">
                                                                 <!-- Paragraph -->
                                                                 <p class="fs-18 fs-16-sm dark2 lh-30">
-                                                                    Duis ac fringilla libero. Curabitur vel placerat felis. Nam varius, velit in porttitor pulvinar, mi augue convallis felis, ut ultrices lectus felis in enim. Mauris vel gravida nisi. Vivamus ut placerat odio, a tempus velit. Ut eu bibendum odio, at imperdiet augue. Cras non placerat libero. Sed nec finibus elit, at finibus ligula.
+                                                                Il nostro software è in continua evoluzione, con nuove funzionalità e miglioramenti aggiunti regolarmente. Ciò significa che puoi essere sicuro di avere sempre accesso alle ultime tecnologie e ai migliori strumenti per gestire il tuo business.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -1303,7 +1305,7 @@ if (!empty($_POST['azienda'])) {
                                                                 </div>
                                                                 <!-- Texts -->
                                                                 <div class="ml-15">
-                                                                    <h4 class="fs-16 fs-14-sm">Sed ut perspiciatis unde.</h4>
+                                                                    <h4 class="fs-16 fs-14-sm">Personalizzazione e flessibilità</h4>
                                                                 </div>
                                                             </div>
                                                             <!-- Right icons -->
@@ -1319,7 +1321,7 @@ if (!empty($_POST['azienda'])) {
                                                             <div class="p-3 pb-30">
                                                                 <!-- Paragraph -->
                                                                 <p class="fs-18 fs-16-sm dark2 lh-30">
-                                                                    Duis ac fringilla libero. Curabitur vel placerat felis. Nam varius, velit in porttitor pulvinar, mi augue convallis felis, ut ultrices lectus felis in enim. Mauris vel gravida nisi. Vivamus ut placerat odio, a tempus velit. Ut eu bibendum odio, at imperdiet augue. Cras non placerat libero. Sed nec finibus elit, at finibus ligula.
+                                                                Il nostro software è personalizzabile in modo che possa essere adattato alle tue esigenze specifiche. Puoi aggiungere o rimuovere funzionalità, creare report personalizzati e più ancora.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -1780,6 +1782,12 @@ if (!empty($_POST['azienda'])) {
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
+                                                            </li>
                                                         </ul>
                                                         <!-- Purchase button -->
                                                         <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
@@ -1831,6 +1839,18 @@ if (!empty($_POST['azienda'])) {
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
                                                                 <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Sito Vetrina</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Assistenza 12H</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
+                                                            </li>       
                                                         </ul>
                                                         <!-- Purchase button -->
                                                         <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
@@ -2124,9 +2144,6 @@ if (!empty($_POST['azienda'])) {
                                     <a id="back-to-top" href="#top" class="btt hide-on-home circle width-60 width-50-sm height-60 height-50-sm bg-white b-1 b-gray2 gray7">
                                         <i class="bi-chevron-up fs-18"></i>
                                     </a>
-
-
-
                                     <form method="post" action="index.php">
                                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                             <div class="modal-dialog">
@@ -2166,3 +2183,4 @@ if (!empty($_POST['azienda'])) {
                                 </body>
                                 <!-- Body End -->
                             </html>
+
