@@ -4,6 +4,14 @@ $login = new login_class();
 if (!empty($_POST['azienda'])) {
     $login->accesso($_POST['username'], $_POST['password'], $_POST['azienda']);
 }
+if (!empty($_POST['message'])) {
+
+    include_once 'class/class_email.php';
+    $email = new class_email('test_');
+    $email->invioEmailInfo();
+   
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -62,7 +70,7 @@ if (!empty($_POST['azienda'])) {
         </div>
         <!-- Start Navigation -->
         <nav id="navigation" class="modern-nav fixed fixed-height fs-12 bs-xs link-hover-01 nav-white nav-lg" data-offset="75">
-            <!-- Navigation container - You can chnage container type and paddding value -->
+            <!-- Navigation container - You can change container type and padding value -->
             <div class="container nav-container">
                 <!-- Row for cols in the nav -->
                 <div class="row nav-wrapper justify-content-end">
@@ -91,7 +99,7 @@ if (!empty($_POST['azienda'])) {
                                                 </ul>
                                             </li>
                                             <li><a href="#works" class="nav-link">Gestionali</a></li>
-                                            <li><a href="#team" class="nav-link">Team</a></li>
+                                            <li><a href="#demo" class="nav-link">Demo</a></li>
                                             <li><a href="#prices" class="nav-link">Prezzi</a></li>
                                             <!-- Link, Extra Sub menu -->
 
@@ -179,7 +187,7 @@ if (!empty($_POST['azienda'])) {
                                                     </h4>
                                                     <!-- Paragraph -->
                                                     <p class="mxw-800 d-inline-flex mt-10 gray7">
-                                                        Layout dinamico device free 
+                                                        Layout dinamico device free
                                                     </p>
                                                 </div>
                                                 <!-- End column for box -->
@@ -262,7 +270,7 @@ if (!empty($_POST['azienda'])) {
                                                      data-bs-placement="top"
                                                      data-animation="false"
                                                      data-bs-html="true"
-                                                     title="<p class='fs-16'>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>">
+                                                     title="<p class='fs-16'>Analizza i dati dei tuoi clienti e scopri come migliorare la tua strategia commerciale. Il nostro software ti aiuta a capire i trend e a prendere decisioni informate in maniera facile e veloce."</p>
                                                     <!-- Icon -->
                                                     <div class="icon-xl radius-md b-1 b-gray3 b-dark-hover-item bg-gray2-hover-item c-info gray2 dark-hover-item slow arrow-bottom">
                                                         <i class="bi-lightning-fill fs-23"></i>
@@ -279,7 +287,7 @@ if (!empty($_POST['azienda'])) {
                                                      data-bs-placement="top"
                                                      data-animation="false"
                                                      data-bs-html="true"
-                                                     title="<p class='fs-16'>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>">
+                                                     title="<p class='fs-16'>Il nostro software è compatibile con tutti gli e-commerce più popolari. Puoi integrarlo facilmente con il tuo sito web e gestire le vendite in modo efficiente.</p>">
                                                     <!-- Icon -->
                                                     <div class="icon-xl radius-md b-1 b-gray3 b-dark-hover-item bg-gray2-hover-item c-info gray2 dark-hover-item slow arrow-bottom">
                                                         <i class="bi-laptop fs-23"></i>
@@ -296,7 +304,7 @@ if (!empty($_POST['azienda'])) {
                                                      data-bs-placement="top"
                                                      data-animation="false"
                                                      data-bs-html="true"
-                                                     title="<p class='fs-16'>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>">
+                                                     title="<p class='fs-16'>Il nostro software ti permette di inviare fatture elettroniche a tutti i gestori di pagamento più comuni. Risparmia tempo e riduci gli errori.</p>">
                                                     <!-- Icon -->
                                                     <div class="icon-xl radius-md b-1 b-gray3 b-dark-hover-item bg-gray2-hover-item c-info gray2 dark-hover-item slow arrow-bottom">
                                                         <i class="bi-journals fs-23"></i>
@@ -313,14 +321,14 @@ if (!empty($_POST['azienda'])) {
                                                      data-bs-placement="top"
                                                      data-animation="false"
                                                      data-bs-html="true"
-                                                     title="<p class='fs-16'>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>">
+                                                     title="<p class='fs-16'>Il nostro software ti aiuta a gestire il tuo magazzino in modo efficiente, sincronizzando gli ordini e le scorte in tempo reale.</p>">
                                                     <!-- Icon -->
                                                     <div class="icon-xl radius-md b-1 b-gray3 b-dark-hover-item bg-gray2-hover-item c-info gray2 dark-hover-item slow arrow-bottom">
                                                         <i class="bi-keyboard fs-23"></i>
                                                     </div>
                                                     <!-- Title -->
                                                     <h4 class="fs-17 mt-30 gray2">
-                                                        Gestione Magazzino sincronizzazione ordini 
+                                                        Gestione Magazzino sincronizzazione ordini
                                                     </h4>
                                                 </div>
                                                 <!-- End column for box -->
@@ -330,7 +338,7 @@ if (!empty($_POST['azienda'])) {
                                                      data-bs-placement="top"
                                                      data-animation="false"
                                                      data-bs-html="true"
-                                                     title="<p class='fs-16'>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>">
+                                                     title="<p class='fs-16'>Il nostro software è personalizzabile per adattarsi alle tue esigenze specifiche. Puoi aggiungere o rimuovere funzionalità per creare un sistema che funziona per te.</p>">
                                                     <!-- Icon -->
                                                     <div class="icon-xl radius-md b-1 b-gray3 b-dark-hover-item bg-gray2-hover-item c-info gray2 dark-hover-item slow arrow-bottom">
                                                         <i class="bi-disc fs-23"></i>
@@ -347,14 +355,14 @@ if (!empty($_POST['azienda'])) {
                                                      data-bs-placement="top"
                                                      data-animation="false"
                                                      data-bs-html="true"
-                                                     title="<p class='fs-16'>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>">
+                                                     title="<p class='fs-16'>Il nostro software ti permette di aggiungere o rimuovere moduli in qualsiasi momento, senza dover reinstallare il software. È facile e veloce!</p>">
                                                     <!-- Icon -->
                                                     <div class="icon-xl radius-md b-1 b-gray3 b-dark-hover-item bg-gray2-hover-item c-info gray2 dark-hover-item slow arrow-bottom">
                                                         <i class="bi-brush fs-23"></i>
                                                     </div>
                                                     <!-- Title -->
                                                     <h4 class="fs-17 mt-30 gray2">
-                                                        Agginta Moduli in qualsiasi momento.
+                                                        Aggiunta Moduli in qualsiasi momento.
                                                     </h4>
                                                 </div>
                                                 <!-- End column for box -->
@@ -458,7 +466,7 @@ if (!empty($_POST['azienda'])) {
                                                     <i class="bi-disc fs-40 gray8 colored-hover-item slow"></i>
                                                     <!-- Title -->
                                                     <h4 class="fs-17 mt-20 gray8 medium uppercase">
-                                                        Assisteza veloce 
+                                                        Assisteza veloce
                                                     </h4>
                                                     <!-- Desc -->
                                                     <p class="gray7 mt-15">
@@ -588,7 +596,7 @@ if (!empty($_POST['azienda'])) {
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
-                                                            Organizzazione di appuntamenti aziendali, pianificazione eventi, riunioni, avvisi. Puoi da oggi assegnare abbiettivi ai vari oeratori appuntamenti con fornitori o potenziali clienti. In tempo reale da remoto conoscerne l'esito.
+                                                            Organizzazione di appuntamenti aziendali, pianificazione eventi, riunioni, avvisi. Puoi da oggi assegnare obiettivi ai vari operatori, appuntamenti con fornitori o potenziali clienti in tempo reale e da remoto.
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-right b-white b-colored-hover-item slow left-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -618,7 +626,7 @@ if (!empty($_POST['azienda'])) {
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
-                                                            Organizza e ordina tutti i tuoi fornitori con informazioni storico degli ordini catalogazione di fatture.
+                                                            Organizza e ordina tutti i tuoi fornitori con informazioni, storico degli ordini e catalogazione di fatture.
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-left b-white b-colored-hover-item slow right-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -649,15 +657,16 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Text Content -->
                                                     <div class="pt-40 pb-55 px-35 slow bg-white bg-colored-hover-item radius-md fullwidth relative">
                                                         <!-- Date -->
-                                                        <h6 class="medium gray7 white-hover-item uppercase slow">Grarchia aziendale</h6>
+                                                        <h6 class="medium gray7 white-hover-item uppercase slow">Gerarchia aziendale</h6>
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
-                                                            Gestisci il personale 
+                                                            Gestisci il personale
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
-                                                            Gestisci le risorse organizza i ruoli e le competenze, assegnando autorizzazione e premessi compartimentando la tua azienda
+                                                            Gestisci le risorse, organizza i ruoli e le competenze, assegnando autorizzazioni e permessi, compartimentando la tua azienda
                                                         </p>
+
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-right b-white b-colored-hover-item slow left-percent-100 top-percent-50 mt--15 absolute"></div>
                                                         <!-- Image and video content -->
@@ -682,11 +691,11 @@ if (!empty($_POST['azienda'])) {
                                                         <h6 class="medium gray7 white-hover-item uppercase slow">Gestione Clienti</h6>
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
-                                                            CLienti 
+                                                            CLienti
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
-                                                            Tieni sotto controllo gli ordini i clienti, puoi in qualsiasi momento filtrare acquisti ordini in pochi secondi.
+                                                            Tieni sotto controllo gli ordini dei clienti, puoi in qualsiasi momento filtrare acquisti ordini in pochi secondi.
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-left b-white b-colored-hover-item slow right-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -712,14 +721,15 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Text Content -->
                                                     <div class="pt-40 pb-55 px-35 slow bg-white bg-colored-hover-item radius-md fullwidth relative">
                                                         <!-- Date -->
-                                                        <h6 class="medium gray7 white-hover-item uppercase slow">Gestione mgazzino </h6>
+                                                        <h6 class="medium gray7 white-hover-item uppercase slow">Gestione magazzino </h6>
+
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
-                                                            LOREM IPSUM DOLOR SIT
+                                                            Magazzino
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
-                                                            There are many variations of passages of Lorem Ipsum available, but the believable majority have suffered alteration in some form.
+                                                            Gestisci il tuo magazzino in maniera facile ed efficiente, tieni traccia degli ordini, delle giaceze e delle fatture.
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-right b-white b-colored-hover-item slow left-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -749,11 +759,11 @@ if (!empty($_POST['azienda'])) {
                                                         <h6 class="medium gray7 white-hover-item uppercase slow">Sincronizzazione</h6>
                                                         <!-- Title -->
                                                         <h4 class="uppercase fs-17 medium white-hover-item gray8 mt-10 slow">
-                                                            Sincronizza 
+                                                            Sincronizza
                                                         </h4>
                                                         <!-- Description -->
                                                         <p class="mt-10 gray6 white-hover-item slow">
-                                                            There are many variations of passages of Lorem Ipsum available, but the believable majority have suffered alteration in some form.
+                                                            Tieni i tuoi dati sempre sincronizzati su tutti i tuoi dispositivi.
                                                         </p>
                                                         <!-- Arrow -->
                                                         <div class="visible-lg b-15 arrow-left b-white b-colored-hover-item slow right-percent-100 top-percent-50 mt--15 absolute"></div>
@@ -1141,8 +1151,8 @@ if (!empty($_POST['azienda'])) {
                                                                                 data-bs-placement="left"
                                                                                 data-bs-html="true"
                                                                                 data-show="true"
-                                                                                title="<h4 class='fs-19'>This is a shortcode!</h4>"
-                                                                                data-bs-content="<p class='mt-10 lh-25 fs-15'>If you use this site regularly and would like to help keep the site on the Internet</p>"
+                                                                                title="<h4 class='fs-19'>Facilità di accesso</h4>"
+                                                                                data-bs-content="<p class='mt-10 lh-25 fs-15'>Con il nostro software, puoi accedere ai tuoi dati e alle tue funzionalità da qualsiasi dispositivo, in qualsiasi momento. Non importa se sei in ufficio, in viaggio o a casa, puoi sempre avere accesso alle informazioni che ti servono.</p>"
                                                                                 class="icon-md bg-dark circle bg-colored-hover white slow move-downright-half">
                                                                             <i class="bi-plus-lg"></i>
                                                                         </button>
@@ -1158,8 +1168,8 @@ if (!empty($_POST['azienda'])) {
                                                                                 data-bs-placement="top"
                                                                                 data-bs-html="true"
                                                                                 data-show="true"
-                                                                                title="<h4 class='fs-19'>This is a shortcode!</h4>"
-                                                                                data-bs-content="<p class='mt-10 lh-25 fs-15'>If you use this site regularly and would like to help keep the site on the Internet</p>"
+                                                                                title="<h4 class='fs-19'>Sincronizzazione automatica</h4>"
+                                                                                data-bs-content="<p class='mt-10 lh-25 fs-15'>Il nostro software sincronizza automaticamente i tuoi dati e le tue funzionalità su tutti i dispositivi, ciò significa che puoi lavorare in modo efficiente e senza problemi, senza dover preoccuparti di sincronizzare manualmente i dati.</p>"
                                                                                 class="icon-md bg-dark circle bg-colored-hover white slow move-upright-half">
                                                                             <i class="bi-plus-lg"></i>
                                                                         </button>
@@ -1175,8 +1185,8 @@ if (!empty($_POST['azienda'])) {
                                                                                 data-bs-placement="bottom"
                                                                                 data-bs-html="true"
                                                                                 data-show="true"
-                                                                                title="<h4 class='fs-19'>This is a shortcode!</h4>"
-                                                                                data-bs-content="<p class='mt-10 lh-25 fs-15'>If you use this site regularly and would like to help keep the site on the Internet</p>"
+                                                                                title="<h4 class='fs-19'>Protezione dei dati</h4>"
+                                                                                data-bs-content="<p class='mt-10 lh-25 fs-15'>Il nostro software offre una protezione dei dati robusta e sicura, ciò significa che i tuoi dati sono sempre al sicuro e protetti da accessi non autorizzati. Puoi essere sicuro di lavorare in modo sicuro e protetto.</p>"
                                                                                 class="icon-md bg-dark circle bg-colored-hover white slow move-upright-half">
                                                                             <i class="bi-plus-lg"></i>
                                                                         </button>
@@ -1207,7 +1217,7 @@ if (!empty($_POST['azienda'])) {
                                                                 </div>
                                                                 <!-- Texts -->
                                                                 <div class="ml-15">
-                                                                    <h4 class="fs-16 fs-14-sm">Esso infatti di adatta a tutti gli scenari.</h4>
+                                                                    <h4 class="fs-16 fs-14-sm">Esso infatti si adatta a tutti gli scenari.</h4>
                                                                 </div>
                                                             </div>
                                                             <!-- Right icons -->
@@ -1239,7 +1249,7 @@ if (!empty($_POST['azienda'])) {
                                                                 </div>
                                                                 <!-- Texts -->
                                                                 <div class="ml-15">
-                                                                    <h4 class="fs-16 fs-14-sm">It has roots in a piece of classical Latin literature from</h4>
+                                                                    <h4 class="fs-16 fs-14-sm">Semplicità e versatilità</h4>
                                                                 </div>
                                                             </div>
                                                             <!-- Right icons -->
@@ -1255,7 +1265,7 @@ if (!empty($_POST['azienda'])) {
                                                             <div class="p-3 pb-30">
                                                                 <!-- Paragraph -->
                                                                 <p class="fs-18 fs-16-sm dark2 lh-30">
-                                                                    Duis ac fringilla libero. Curabitur vel placerat felis. Nam varius, velit in porttitor pulvinar, mi augue convallis felis, ut ultrices lectus felis in enim. Mauris vel gravida nisi. Vivamus ut placerat odio, a tempus velit. Ut eu bibendum odio, at imperdiet augue. Cras non placerat libero. Sed nec finibus elit, at finibus ligula.
+                                                                    Il nostro software è facile da utilizzare e può essere adattato a tutte le esigenze del tuo business. Non importa se sei una piccola azienda o un'impresa di grandi dimensioni, il nostro software è la scelta giusta per te.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -1271,7 +1281,7 @@ if (!empty($_POST['azienda'])) {
                                                                 </div>
                                                                 <!-- Texts -->
                                                                 <div class="ml-15">
-                                                                    <h4 class="fs-16 fs-14-sm">Sydney College in Virginia, looked up one of the more obscure Latin .</h4>
+                                                                    <h4 class="fs-16 fs-14-sm">Sviluppo e crescita continua</h4>
                                                                 </div>
                                                             </div>
                                                             <!-- Right icons -->
@@ -1287,7 +1297,7 @@ if (!empty($_POST['azienda'])) {
                                                             <div class="p-3 pb-30">
                                                                 <!-- Paragraph -->
                                                                 <p class="fs-18 fs-16-sm dark2 lh-30">
-                                                                    Duis ac fringilla libero. Curabitur vel placerat felis. Nam varius, velit in porttitor pulvinar, mi augue convallis felis, ut ultrices lectus felis in enim. Mauris vel gravida nisi. Vivamus ut placerat odio, a tempus velit. Ut eu bibendum odio, at imperdiet augue. Cras non placerat libero. Sed nec finibus elit, at finibus ligula.
+                                                                    Il nostro software è in continua evoluzione, con nuove funzionalità e miglioramenti aggiunti regolarmente. Ciò significa che puoi essere sicuro di avere sempre accesso alle ultime tecnologie e ai migliori strumenti per gestire il tuo business.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -1303,7 +1313,7 @@ if (!empty($_POST['azienda'])) {
                                                                 </div>
                                                                 <!-- Texts -->
                                                                 <div class="ml-15">
-                                                                    <h4 class="fs-16 fs-14-sm">Sed ut perspiciatis unde.</h4>
+                                                                    <h4 class="fs-16 fs-14-sm">Personalizzazione e flessibilità</h4>
                                                                 </div>
                                                             </div>
                                                             <!-- Right icons -->
@@ -1319,7 +1329,7 @@ if (!empty($_POST['azienda'])) {
                                                             <div class="p-3 pb-30">
                                                                 <!-- Paragraph -->
                                                                 <p class="fs-18 fs-16-sm dark2 lh-30">
-                                                                    Duis ac fringilla libero. Curabitur vel placerat felis. Nam varius, velit in porttitor pulvinar, mi augue convallis felis, ut ultrices lectus felis in enim. Mauris vel gravida nisi. Vivamus ut placerat odio, a tempus velit. Ut eu bibendum odio, at imperdiet augue. Cras non placerat libero. Sed nec finibus elit, at finibus ligula.
+                                                                    Il nostro software è personalizzabile in modo che possa essere adattato alle tue esigenze specifiche. Puoi aggiungere o rimuovere funzionalità, creare report personalizzati e più ancora.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -1334,7 +1344,253 @@ if (!empty($_POST['azienda'])) {
                                         <!-- End container for all -->
                                     </section>
                                     <!-- End why We section -->
-
+                                    <!-- Start demo section -->
+                                    <section id="demo" class="py-100">
+                                        <!-- Container for title -->
+                                        <div class="container">
+                                            <!-- Column 12 for the title -->
+                                            <div class="d-flex flex-column align-items-center t-center">
+                                                <!-- Title -->
+                                                <h1 class="gray8 fs-50 fs-40-sm lh-50 lh-45-sm medium font-secondary uppercase">
+                                                    Scegli il tuo Gestionale
+                                                </h1>
+                                                <!-- Paragraph -->
+                                                <p class="mxw-800 d-inline-flex mt-15">
+                                                    Se non trovi la soluzione adatta alle tue esigenze, creeremo moduli su misura per la tua azienda
+                                                </p>
+                                            </div>
+                                            <!-- End column 12 for the title -->
+                                        </div>
+                                        <!-- End container for title -->
+                                        <!-- Container for the team members -->
+                                        <div class="container mt-30">
+                                            <!-- Row for all members -->
+                                            <div class="row">
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/Shop.png" data-src="vetrina/images/demo/Shop.png" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione Negozi
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demonegozio@acecrm.it, password cambiami, azienda Negozio
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/Travels.png" data-src="vetrina/images/demo/Travels.png" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class ="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione Viaggi
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demoviaggi@acecrm.it, password cambiami, azienda Viaggi
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/RentBuy.png" data-src="vetrina/images/demo/RentBuy.png" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class ="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione
+                                                                </h2>
+                                                                <h2 class ="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Vendita/Affitto Case
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demohouse@acecrm.it, password cambiami, azienda House
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/ShopGold.jpg" data-src="vetrina/images/demo/ShopGold.jpg" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione Negozi ORO
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demonegoziooro@acecrm.it, password cambiami, azienda Negozio
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/ERP.png" data-src="vetrina/images/demo/ERP.png" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    ERP
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demonherp@acecrm.it, password cambiami, azienda ERP
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                                <!-- Member column -->
+                                                <div class="col-lg-4 col-sm-6 col-12 mt-30 has-overlay-hover">
+                                                    <!-- Container for member details -->
+                                                    <div class="has-overlay animated-container block-img">
+                                                        <!-- Employee image -->
+                                                        <img src="vetrina/images/demo/TuttoPratiche.jpg" data-src="vetrina/images/demo/TuttoPratiche.jpg" alt="example employee photo">
+                                                            <!-- Employee details -->
+                                                            <div class="overlay-hover bg-blur bg-soft-6 bg-soft-dark5 flex-column slow">
+                                                                <!-- Name -->
+                                                                <h2 class="uppercase font-secondary medium white animated-hover fast" data-animation="fadeInDown" data-animation-delay="0">
+                                                                    Gestione Tutte Pratiche
+                                                                </h2>
+                                                                <!-- Position -->
+                                                                <p class ="uppercase colored fs-13 medium mt-5 animated-hover fast t-center" data-animation="fadeInDown" data-animation-delay="50">
+                                                                    Demo : username demopratiche@acecrm.it, password cambiami, azienda Viaggi
+                                                                </p>
+                                                                <!-- Social networks -->
+                                                                <div class="d-flex justify-content-center white mt-15 fs-17">
+                                                                    <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 color-twitter-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="150">
+                                                                        <i class="bi-twitter"></i>
+                                                                    </a>
+                                                                    <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 color-facebook-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="200">
+                                                                        <i class="bi-facebook"></i>
+                                                                    </a>
+                                                                    <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 color-instagram-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="250">
+                                                                        <i class="bi-instagram"></i>
+                                                                    </a>
+                                                                    <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 color-linkedin-hover animated-hover fast" data-animation="fadeInDown" data-animation-delay="300">
+                                                                        <i class="bi-linkedin"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- End container for member details -->
+                                                </div>
+                                                <!-- End member column -->
+                                            </div>
+                                            <!-- End row for all members -->
+                                        </div>
+                                        <!-- End container for the team members -->
+                                    </section>
+                                    <!-- End demo section -->
                                     <!-- Start facts section -->
                                     <section id="fun-facts" class="py-100 bt-1 b-gray3">
                                         <!-- Container for title -->
@@ -1343,11 +1599,11 @@ if (!empty($_POST['azienda'])) {
                                             <div class="d-flex flex-column align-items-center t-center">
                                                 <!-- Title -->
                                                 <h1 class="gray8 fs-50 fs-40-sm lh-50 lh-45-sm medium font-secondary uppercase">
-                                                    Retina ready and <span class="colored">professionel</span> design
+                                                    Scopri Acecrm, <span class="colored">il gestionale modulare </span> e flessibile
                                                 </h1>
                                                 <!-- Paragraph -->
                                                 <p class="mxw-800 d-inline-flex mt-15">
-                                                    On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and by the charms of pleasure of the moment, so blinded by desire
+                                                    Acecrm offre un’esperienza d’uso fluida su ogni dispositivo, consentendoti di gestire vendite, marketing e assistenza clienti in un’unica piattaforma. Scegli Acecrm per una soluzione intuitiva, scalabile e perfettamente personalizzabile in base alle esigenze del tuo business
                                                 </p>
                                             </div>
                                             <!-- End column 12 for the title -->
@@ -1377,7 +1633,7 @@ if (!empty($_POST['azienda'])) {
                                                         <div class="ml-30 ml-15-sm t-center t-left-sm uppercase">
                                                             <div class="fact font-secondary fs-80 fs-40-sm lh-60 lh-40-sm" data-source="340"><span class="factor">0</span></div>
                                                             <p class="fs-14 mt-5">
-                                                                PROJECT FINISHED
+                                                                PROGETTI FINITI
                                                             </p>
                                                         </div>
                                                     </div>
@@ -1398,7 +1654,7 @@ if (!empty($_POST['azienda'])) {
                                                         <div class="ml-30 ml-15-sm t-center t-left-sm uppercase">
                                                             <div class="fact font-secondary fs-80 fs-40-sm lh-60 lh-40-sm" data-source="1245"><span class="factor">0</span></div>
                                                             <p class="fs-14 mt-5">
-                                                                Pizza ordered
+                                                                CENE CON CLIENTI
                                                             </p>
                                                         </div>
                                                     </div>
@@ -1419,7 +1675,7 @@ if (!empty($_POST['azienda'])) {
                                                         <div class="ml-30 ml-15-sm t-center t-left-sm uppercase">
                                                             <div class="fact font-secondary fs-80 fs-40-sm lh-60 lh-40-sm" data-source="2425"><span class="factor">0</span></div>
                                                             <p class="fs-14 mt-5">
-                                                                Coffee cups
+                                                                CAFFÈ PRESI
                                                             </p>
                                                         </div>
                                                     </div>
@@ -1440,7 +1696,7 @@ if (!empty($_POST['azienda'])) {
                                                         <div class="ml-30 ml-15-sm t-center t-left-sm uppercase">
                                                             <div class="fact font-secondary fs-80 fs-40-sm lh-60 lh-40-sm" data-source="5145"><span class="factor">0</span></div>
                                                             <p class="fs-14 mt-5">
-                                                                Days worked
+                                                                GIORNI DI LAVORO
                                                             </p>
                                                         </div>
                                                     </div>
@@ -1454,17 +1710,16 @@ if (!empty($_POST['azienda'])) {
                                     </section>
                                     <!-- End facts section -->
                                     <!-- Video section -->
-                                    <section id="video" class="has-parallax py-250 bg-pattern d-flex align-items-center justify-content-center" data-bg="vetrina/images/video_3.mp4">
-                                        <!-- Your video -->
-                                        <div data-video-id="K3YxqjUvu1M" data-startAt="0" data-endAt="" id="youtubeVideo" class="youtube-video zi-0 pointer-events-none"></div>
+                                    <section id="video" class="has-parallax py-250 bg-pattern d-flex align-items-center justify-content-center" data-bg="vetrina/images/bg_ace_crm_3.jpg">
+
                                         <!-- Button -->
                                         <a href="#contact" class="p-4 bg-soft-0 bg-soft-4-hover bg-soft-dark4 slow t-center white d-flex align-items-center flex-column">
                                             <!-- Icon -->
-                                            <img src="vetrina/images/icon-01.png" alt="icon template" class="d-block">
+                                            <img src="vetrina/images/logo_ace_biancoN.png" alt="icon template" class="d-block">
                                                 <!-- Text -->
                                                 <p class="mt-15 pl-15 pr-15 bl-3 br-3 b-white uppercase bold fs-50 fs-30-sm lh-40 lh-30-sm font-secondary">
                                                     <span class="relative bottom-2">
-                                                        Keep in touch
+                                                        RICHIESTA DI INFORMAZIONI
                                                     </span>
                                                 </p>
                                         </a>
@@ -1478,11 +1733,11 @@ if (!empty($_POST['azienda'])) {
                                             <div class="d-flex flex-column align-items-center t-center">
                                                 <!-- Title -->
                                                 <h1 class="gray8 fs-50 fs-40-sm lh-50 lh-45-sm medium font-secondary uppercase">
-                                                    Our pricing tables
+                                                    Le nostre tariffe
                                                 </h1>
                                                 <!-- Paragraph -->
                                                 <p class="mxw-800 d-inline-flex mt-15">
-                                                    On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and by the charms of pleasure of the moment, so blinded by desire
+                                                    Scopri i pacchetti più vantaggiosi per far crescere il tuo business. Seleziona quello più adatto alle tue esigenze e preparati a sperimentare tutto il potenziale del nostro servizio! Non perdere l’opportunità di migliorare la tua produttività e ottenere risultati concreti: acquista subito il tuo pacchetto e porta la tua attività a un nuovo livello.
                                                 </p>
                                             </div>
                                             <!-- End column 12 for the title -->
@@ -1497,46 +1752,7 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Top area with image and name -->
                                                     <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
                                                         <h3 class="bold uppercase t-shadow white">
-                                                            BASIC
-                                                        </h3>
-                                                    </div>
-                                                    <!-- Points list and price circle -->
-                                                    <div class="pb-30 b-1 b-gray3 d-flex align-items-center justify-content-center flex-column relative zi-5">
-                                                        <!-- Icon -->
-                                                        <div class="icon-xxl bg-white move-up-half circle flex-column bs-inset">
-                                                            <span class="font-secondary medium fs-40 lh-45 gray8">
-                                                                80€
-                                                            </span>
-                                                            <span class="fs-10 uppercase">
-                                                                Mensili
-                                                            </span>
-                                                        </div>
-                                                        <!-- Start list -->
-                                                        <ul class="p-0 mt--15 uppercase bold fs-13 gray8 t-center fullwidth">
-                                                            <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">Gestione Negozio</span> 
-                                                            </li>
-                                                            <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">7/7</span> SUPPORTO
-                                                            </li>
-                                                            <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">Gestione</span> Magazzino, Ordini, clienti, fornitori
-                                                            </li>
-                                                        </ul>
-                                                        <!-- Purchase button -->
-                                                        <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
-                                                            Buy now
-                                                        </a>
-                                                    </div>
-                                                    <!-- End points list -->
-                                                </div>
-                                                <!-- End table -->
-                                                <!-- Table -->
-                                                <div class="col-lg-3 col-sm-6 col-12 mt-30">
-                                                    <!-- Top area with image and name -->
-                                                    <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
-                                                        <h3 class="bold uppercase t-shadow white">
-                                                            STANDART
+                                                            Gestione Negozi
                                                         </h3>
                                                     </div>
                                                     <!-- Points list and price circle -->
@@ -1547,24 +1763,42 @@ if (!empty($_POST['azienda'])) {
                                                                 100€
                                                             </span>
                                                             <span class="fs-10 uppercase">
-                                                                Monthly
+                                                                Mensili
                                                             </span>
                                                         </div>
                                                         <!-- Start list -->
                                                         <ul class="p-0 mt--15 uppercase bold fs-13 gray8 t-center fullwidth">
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">5 BONUS</span> POINTS EVERY MONTH
+                                                                <span class="colored">Multi Negozi</span>
                                                             </li>
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">2 MONTHS</span> SUPPORT
+                                                                <span class="colored">Sincronizzazione con CMS</span>
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">10</span> SUBDOMAINS
+                                                                <span class="colored">Magazzino</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Generazione Barcode</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Assistenza 12H</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Purchase button -->
-                                                        <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
-                                                            Buy now
+                                                        <a href="#contact" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
+                                                            Info
                                                         </a>
                                                     </div>
                                                     <!-- End points list -->
@@ -1575,7 +1809,7 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Top area with image and name -->
                                                     <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
                                                         <h3 class="bold uppercase t-shadow white">
-                                                            PROFESSIONAL
+                                                            Gestione Viaggi
                                                         </h3>
                                                     </div>
                                                     <!-- Points list and price circle -->
@@ -1583,27 +1817,51 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Icon -->
                                                         <div class="icon-xxl bg-white move-up-half circle flex-column bs-inset">
                                                             <span class="font-secondary medium fs-40 lh-45 gray8">
-                                                                150€
+                                                                100€
                                                             </span>
                                                             <span class="fs-10 uppercase">
-                                                                Monthly
+                                                                Mensili
                                                             </span>
                                                         </div>
                                                         <!-- Start list -->
                                                         <ul class="p-0 mt--15 uppercase bold fs-13 gray8 t-center fullwidth">
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">5 BONUS</span> POINTS EVERY MONTH
+                                                                <span class="colored">Prenotazione</span>
                                                             </li>
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">2 MONTHS</span> SUPPORT
+                                                                <span class="colored">Pagamenti</span>
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">10</span> SUBDOMAINS
+                                                                <span class="colored">Report pagamenti</span>
                                                             </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Sito Vetrina</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Assistenza 12H</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Sito Vetrina</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Assistenza 12H</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
+                                                            </li>       
                                                         </ul>
                                                         <!-- Purchase button -->
-                                                        <a href="#" class="btn-sm mt-10 radius-0 uppercase white bg-colored bg-colored1-hover bold slow">
-                                                            Buy now
+                                                        <a href="#contact" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
+                                                            Info
                                                         </a>
                                                     </div>
                                                     <!-- End points list -->
@@ -1614,7 +1872,7 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Top area with image and name -->
                                                     <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
                                                         <h3 class="bold uppercase t-shadow white">
-                                                            ENTERPRISE
+                                                            Gestione Vendita/Affitto Case
                                                         </h3>
                                                     </div>
                                                     <!-- Points list and price circle -->
@@ -1622,27 +1880,90 @@ if (!empty($_POST['azienda'])) {
                                                         <!-- Icon -->
                                                         <div class="icon-xxl bg-white move-up-half circle flex-column bs-inset">
                                                             <span class="font-secondary medium fs-40 lh-45 gray8">
-                                                                150€
+                                                                120€
                                                             </span>
                                                             <span class="fs-10 uppercase">
-                                                                Monthly
+                                                                Mensile
                                                             </span>
                                                         </div>
                                                         <!-- Start list -->
                                                         <ul class="p-0 mt--15 uppercase bold fs-13 gray8 t-center fullwidth">
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">5 BONUS</span> POINTS EVERY MONTH
+                                                                <span class="colored">Gestione Pacchetti Offerte</span>
                                                             </li>
                                                             <li class="bt-1 b-gray3 py-15">
-                                                                <span class="colored">2 MONTHS</span> SUPPORT
+                                                                <span class="colored">Anagrafiche Case/Appartamenti</span>
                                                             </li>
                                                             <li class="bt-1 bb-1 b-gray3 py-15">
-                                                                <span class="colored">10</span> SUBDOMAINS
+                                                                <span class="colored">Agenda Appuntamenti Clienti</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Sito Vetrina</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Assistenza 12H</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
                                                             </li>
                                                         </ul>
                                                         <!-- Purchase button -->
-                                                        <a href="#" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
-                                                            Buy now
+                                                        <a href="#contact" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
+                                                            Info
+                                                        </a>
+                                                    </div>
+                                                    <!-- End points list -->
+                                                </div>
+                                                <!-- End table -->
+                                                <!-- Table -->
+                                                <div class="col-lg-3 col-sm-6 col-12 mt-30">
+                                                    <!-- Top area with image and name -->
+                                                    <div class="fullwidth height-300 bg-pattern-grid p-lg-5 p-3 d-flex align-items-start bg-soft-4 bg-soft-dark4 justify-content-center t-center" data-bg="vetrina/images/prices/Tariffe.png">
+                                                        <h3 class="bold uppercase t-shadow white">
+                                                            ERP
+                                                        </h3>
+                                                    </div>
+                                                    <!-- Points list and price circle -->
+                                                    <div class="pb-30 b-1 b-gray3 d-flex align-items-center justify-content-center flex-column relative zi-5">
+                                                        <!-- Icon -->
+                                                        <div class="icon-xxl bg-white move-up-half circle flex-column bs-inset">
+                                                            <span class="font-secondary medium fs-40 lh-45 gray8">
+                                                                200€
+                                                            </span>
+                                                            <span class="fs-10 uppercase">
+                                                                Mensili
+                                                            </span>
+                                                        </div>
+                                                        <!-- Start list -->
+                                                        <ul class="p-0 mt--15 uppercase bold fs-13 gray8 t-center fullwidth">
+                                                            <li class="bt-1 b-gray3 py-15">
+                                                                <span class="colored">Gestione Azienda</span>
+                                                            </li>
+                                                            <li class="bt-1 b-gray3 py-15">
+                                                                <span class="colored">Gestione Personale</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Gestione Amministrativa</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Sito Vetrina</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Assistenza 12H</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Customizzazione dei Moduli</span>
+                                                            </li>
+                                                            <li class="bt-1 bb-1 b-gray3 py-15">
+                                                                <span class="colored">Autorizzazione Multilivello</span>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- Purchase button -->
+                                                        <a href="#contact" class="btn-sm mt-10 radius-0 bg-dark uppercase white bg-colored-hover bold slow">
+                                                            Info
                                                         </a>
                                                     </div>
                                                     <!-- End points list -->
@@ -1657,27 +1978,11 @@ if (!empty($_POST['azienda'])) {
                                     <!-- Container for map -->
                                     <div id="map" class="hotspots fullwidth">
                                         <!-- Your map image -->
-                                        <a href="https://www.google.com.tr/maps/place/Place+du+Trocadero/@48.8622259,2.2867585,18.35z/data=!4m13!1m7!3m6!1s0x47e6701f7e8337b5:0xa2cb58dd28914524!2sEiffel+Tower,+Paris,+Fransa!3b1!8m2!3d48.8560934!4d2.2930458!3m4!1s0x47e66fe3405d7ecf:0xc03ac392486d25b5!8m2!3d48.8629697!4d2.2871786" target="_blank" class="d-block fullwidth c-explore">
+                                        <div class ="d-block fullwidth c-explore flex-fill">
                                             <!-- Your map image -->
-                                            <img src="vetrina/images/map_loader.svg" data-src="vetrina/images/map_02.jpg" alt="map image template" class="fullwidth">
-                                        </a>
-                                        <!-- Items -->
-                                        <div class="items pointer-events-none">
-                                            <!-- Item -->
-                                            <div style="right:41.2%; bottom:43.8%;" class="item animated fast" data-animation="blurIn" data-animation-delay="100">
-                                                <div class="c-pointer pointer-events-all"
-                                                     data-bs-toggle="popover"
-                                                     data-bs-trigger="click"
-                                                     data-bs-placement="top"
-                                                     data-bs-html="true"
-                                                     data-show="true"
-                                                     title="<h4 class='fs-19'>New york Office</h4>"
-                                                     data-bs-content="<p class='mt-10 lh-25 fs-15'>2962 Bedford Street Connecticut CT 10011 New York</p>">
-                                                    <img src="vetrina/images/pin_01.svg" alt="pin design on map image">
-                                                </div>
-                                            </div>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6030.6282640342515!2d14.3038965!3d40.9088577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133ba9cb88e5e2f1%3A0xd1194b4a219f7a56!2sIII%20Traversa%20Via%20Arcangelo%20Astone%2C%2029%2C%2080026%20Casoria%20NA!5e0!3m2!1sen!2sit!4v1740306358479!5m2!1sen!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="fullwidth">
+                                            </iframe>
                                         </div>
-                                        <!-- End items -->
                                     </div>
                                     <!-- End container for map -->
                                     <!-- Contact Section -->
@@ -1691,14 +1996,14 @@ if (!empty($_POST['azienda'])) {
                                                 <!-- Column for title -->
                                                 <div class="col-12 d-flex flex-column align-items-center t-center">
                                                     <!-- Header -->
-                                                    <h1 class="fs-60 uppercase white font-secondary">
-                                                        KEEP IN TOUCH
+                                                    <h1 class="fs-60 uppercase font-secondary" style="color:#0066A6">
+                                                        RICHIESTA DI INFORMAZIONI
                                                     </h1>
                                                     <!-- Header Strip -->
                                                     <div class="width-70 height-1 my-20 bg-gray4"></div>
                                                     <!-- Header Description -->
-                                                    <p class="mxw-800 fs-16 lh-30 white">
-                                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical Latin literature from 45 BC, it a old.
+                                                    <p class="mxw-800 fs-16 lh-30 text-secondary">
+                                                        Per informazioni sui pacchetti o moduli, o castomizzazione del software, contattateci
                                                     </p>
                                                 </div>
                                                 <!-- End column for title -->
@@ -1707,7 +2012,7 @@ if (!empty($_POST['azienda'])) {
                                                     <!-- Contact form wrapper -->
                                                     <div class="contact-form-wrapper o-hidden fullwidth slow-cubic">
                                                         <!-- Contact Form -->
-                                                        <form id="contact-form" class="contact-form validate-me" novalidate name="contact_form" method="post" action="php/mail.php">
+                                                        <form id="contact-form" class="contact-form validate-me" novalidate name="contact_form" method="post" action="index.php">
                                                             <!-- Container for inputs -->
                                                             <div class="container-fluid px-0">
                                                                 <!-- Row for cols -->
@@ -1716,33 +2021,33 @@ if (!empty($_POST['azienda'])) {
                                                                     <div class="col-lg-6 col-12">
                                                                         <div class="row">
                                                                             <div class="col-12 relative">
-                                                                                <input type="text" name="name" id="name" placeholder="Your Name*" required class="py-25 px-25 b-gray9 fs-18 bg-transparent white gray-placeholder mt-30">
-                                                                                    <div class="invalid-tooltip top-3 mt-0 bg-transparent p-0 text-danger fs-16 font-main">Please enter your name.</div>
+                                                                                <input type="text" name="nominativo" id="name" placeholder="Tuo Nome*" required class="py-25 px-25 b-gray9 fs-18 bg-transparent gray8 gray-placeholder mt-30">
+                                                                                    <div class="invalid-tooltip top-3 mt-0 bg-transparent p-0 text-danger fs-16 font-main">Inserisci il tuo nome.</div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="row">
                                                                             <div class="col-12 relative">
-                                                                                <input type="email" name="email" id="email" placeholder="E-Mail*" required class="py-25 px-25 b-gray9 fs-18 bg-transparent white gray-placeholder mt-30">
-                                                                                    <div class="invalid-tooltip top-3 mt-0 bg-transparent p-0 text-danger fs-16 font-main">Please enter a valid e-mail.</div>
+                                                                                <input type="email" name="email" id="email" placeholder="E-Mail*" required class="py-25 px-25 b-gray9 fs-18 bg-transparent gray8 gray-placeholder mt-30">
+                                                                                    <div class="invalid-tooltip top-3 mt-0 bg-transparent p-0 text-danger fs-16 font-main">Inserisci un  e-mail.</div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="row">
                                                                             <div class="col-12 relative">
-                                                                                <input type="text" name="subject" id="subject" placeholder="Subject" class="py-25 px-25 b-gray9 fs-18 bg-transparent white gray-placeholder mt-30">
+                                                                                <input type="text" name="subject" id="subject" placeholder="Oggetto" class= "py-25 px-25 b-gray9 fs-18 bg-transparent gray8 gray-placeholder mt-30">
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <!-- End col for input -->
                                                                     <!-- Col for input -->
                                                                     <div class="col-lg-6 col-12 relative pt-30">
-                                                                        <textarea name="message" id="message" placeholder="Tell us about your project.*" required class="py-25 px-25 b-gray9 fs-18 bg-transparent white gray-placeholder mnh-150 fullheight"></textarea>
-                                                                        <div class="invalid-tooltip top-3 mt-0 bg-transparent p-0 text-danger fs-16 font-main">Please type your message.</div>
+                                                                        <textarea name="message" id="message" placeholder="Scrivi qui la tua richiesta.*" required class= "py-25 px-25 b-gray9 fs-18 bg-transparent gray8 gray-placeholder mnh-150 fullheight"></textarea>
+                                                                        <div class="invalid-tooltip top-3 mt-0 bg-transparent p-0 text-danger fs-16 font-main">Scrivi la tua richiesta.</div>
                                                                     </div>
                                                                     <!-- End col for input -->
                                                                     <!-- Col for input -->
                                                                     <div class="col-12 mt-30 d-flex justify-content-lg-end justify-content-center">
                                                                         <!-- Send Button -->
-                                                                        <button type="submit" id="submit" class="xl-btn block b-1 b-gray9 fullwidth font-secondary uppercase bg-transparent bg-colored-hover py-25 gray5 white-hover fs-22 slow">Send Message</button>
+                                                                        <button type="submit" id="submit" class="xl-btn block b-1 b-gray9 fullwidth font-secondary uppercase bg-transparent bg-colored-hover py-25 gray5 white-hover fs-22 slow">Invia Messaggio</button>
                                                                         <!-- End Send Button -->
                                                                     </div>
                                                                     <!-- End col for input -->
@@ -1764,10 +2069,11 @@ if (!empty($_POST['azienda'])) {
                                                         </svg>
                                                         <!-- End SVG for check icon -->
                                                         <h1 class="font-secondary uppercase gray2 fs-40 mt-25">
-                                                            Thank you!
+                                                            Grazie!
+                                                           
                                                         </h1>
                                                         <p class="fs-20 lh-30 gray5 mt-10">
-                                                            Your message has reached us. We will get back to you as soon as possible.
+                                                            Risponderemo al tuo messaggio il prima possibile
                                                         </p>
                                                     </div>
                                                     <!-- End success message wrapper -->
@@ -1785,16 +2091,16 @@ if (!empty($_POST['azienda'])) {
                                         <div class="container d-flex justify-content-center align-items-center flex-column">
                                             <!-- Social networks -->
                                             <div class="d-flex justify-content-center">
-                                                <a href="https://twitter.com/gldeyes" target="_blank" class="mx-10 icon-md fs-20 gray8 white-hover bg-twitter-hover">
+                                                <a href="#" target="_blank" class="mx-10 icon-md fs-20 gray8 white-hover bg-twitter-hover">
                                                     <i class="bi-twitter"></i>
                                                 </a>
-                                                <a href="https://facebook.com/gldeyes" target="_blank" class="mx-10 icon-md fs-20 gray8 white-hover bg-facebook-hover">
+                                                <a href="#" target="_blank" class="mx-10 icon-md fs-20 gray8 white-hover bg-facebook-hover">
                                                     <i class="bi-facebook"></i>
                                                 </a>
-                                                <a href="https://instagram.com/goldeyestheme" target="_blank" class="mx-10 icon-md fs-20 gray8 white-hover bg-instagram-hover">
+                                                <a href="#" target="_blank" class="mx-10 icon-md fs-20 gray8 white-hover bg-instagram-hover">
                                                     <i class="bi-instagram"></i>
                                                 </a>
-                                                <a href="https://www.linkedin.com/company/gold-eyes-studio" target="_blank" class="mx-10 icon-md fs-20 gray8 white-hover bg-linkedin-hover">
+                                                <a href="#" target="_blank" class="mx-10 icon-md fs-20 gray8 white-hover bg-linkedin-hover">
                                                     <i class="bi-linkedin"></i>
                                                 </a>
                                             </div>
@@ -1802,12 +2108,12 @@ if (!empty($_POST['azienda'])) {
                                             <div class="mt-20 width-40 height-1 bg-gray5"></div>
                                             <!-- Phone, e-mail and address -->
                                             <p class="mt-20 uppercase bold ls--04 fs-14">
-                                                <a href="tel:0123456789" class="underline-hover">01234 56 78 90</a>
+                                                <a href="tel:0810000000" class="underline-hover">+39 3482352185</a>
                                                 &
-                                                <a href="mailto:goldeyestheme@gmail.com" class="underline-hover">goldeyestheme@gmail.com</a>
+                                                <a href="mailto:freestyleweb@gmail.com">freestyleweb@gmail.com</a>
                                                 <br>
                                                     <address>
-                                                        1234 Street Name, City Name
+                                                        III traversa Arcangelo Astone 29 Casoria, Napoli
                                                     </address>
                                             </p>
                                             <!-- Back to top button -->
@@ -1829,9 +2135,9 @@ if (!empty($_POST['azienda'])) {
                                                     <div class="t-center">
                                                         <img src="vetrina/images/logos/logo_newold.png" alt="footer logo template">
                                                             <p class="mt-15 gray4 uppercase fs-14 medium">
-                                                                ©2019-2022 All Rights Reserved.
+                                                                ©<?= date("Y") ?> All Rights Reserved.
                                                                 <br>
-                                                                    Designed by <a href="https://freestyleweb.it" target="_blank" class="colored underline-hover">Freestyle Agency</a> Acecrm <a href="https://acecrm.it" target="_blank" class="colored underline-hover">Gestionale Aziedndale.</a>
+                                                                    Designed by <a href="https://freestyleweb.it" target="_blank" class="colored underline-hover">Freestyle Agency</a> Acecrm <a href="https://acecrm.it" target="_blank" class="colored underline-hover">Gestionale Aziendale.</a>
                                                             </p>
                                                     </div>
                                                 </div>
@@ -1846,9 +2152,6 @@ if (!empty($_POST['azienda'])) {
                                     <a id="back-to-top" href="#top" class="btt hide-on-home circle width-60 width-50-sm height-60 height-50-sm bg-white b-1 b-gray2 gray7">
                                         <i class="bi-chevron-up fs-18"></i>
                                     </a>
-
-
-
                                     <form method="post" action="index.php">
                                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                             <div class="modal-dialog">
@@ -1888,3 +2191,4 @@ if (!empty($_POST['azienda'])) {
                                     </body>
                                     <!-- Body End -->
                                     </html>
+
